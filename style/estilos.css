@@ -50,9 +50,6 @@ p{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
-/*     MAIN     */
-
-
 footer{
     display:flex;
     justify-content: center;
@@ -67,6 +64,7 @@ footer{
     background-color: rgba(4, 99, 70, 0.877);
     border: solid 4px white;
 }
+/*     HEADER     */
 
 .flxhead{
     display: flex;
@@ -89,7 +87,7 @@ footer{
     list-style-type: none;
 }
 
-/*     MENU    */
+                   /*     MENU HEADER */
 .menu{
     height: 150px;
     width: 100%;
@@ -103,7 +101,7 @@ footer{
 }
 .menuic{
     display:block;
-    justify-content: center;
+    justify-content:center;
     margin: 0px;
     margin-left: 50px;
     height: 148px;
@@ -116,7 +114,38 @@ footer{
     height: 100px;
     width: auto;
 }
-
+                        /* BAN HYPER*/
+.hyperx{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 12px;
+    border: solid 2px black;
+    margin-top: 200px;
+    margin-bottom: 75px;
+    height: 150px;
+    width: auto;
+}
+.hyper{
+    margin: 2px;
+    border: solid 2px white;
+    height: 150px;
+    width: 1400px;
+}
+                        /*  MID  */
+.parra{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgba(165, 7, 46, 0.192);
+    border: solid 4px white;
+    font-size: 32px;
+    margin: 8px;
+    padding: 12px; 
+    top: 0px;
+}
 .contmid{
     justify-content: space-between;
     position: relative;
@@ -129,28 +158,34 @@ footer{
     height: 700px;
     width: auto;
 }
-.listfoo{
+.secmid{
     justify-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     position: relative;
-    align-content: flex-end;
-    padding: 10px;
-    list-style-type: none;
-}
-.sell{
     display: flex;
-    flex-direction: row;
-    flex-flow: column wrap;
-    position: relative;
-    border: solid 4px black;
-    margin: 2px;
-    height: 125px;
-    width:auto;
-    margin:10px;
-    padding:0px;
+    flex-direction:column;
+    height:150px;
+    width: 200px;
+    margin: 0px;
+    margin-top: 190px;
 }
+                        /*  PUBLICIDAD */
+
+.public{
+    margin: 4px;
+    margin-top: 200px;
+    border: solid 4px white;
+    height: 200px;
+    width: 275px;
+}
+.publicc{
+    margin: 4px;
+    border: solid 4px white;
+    height: 300px;
+    width: 250px;
+}
+                        /*   VENTAS   */
+
+
 .boxsellt{
     justify-content: space-between;
     align-items: center;
@@ -176,19 +211,19 @@ footer{
     margin: 10px;
     padding: 0px;
 }
-.parra{
-    justify-content: center;
+.sell{
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    letter-spacing: 4px;
-    background-color: rgba(165, 7, 46, 0.192);
-    border: solid 4px white;
-    font-size: 32px;
-    margin: 8px;
-    padding: 12px;
-    top: 0px;
+    flex-direction: row;
+    flex-flow: column wrap;
+    position: relative;
+    border: solid 4px black;
+    margin: 2px;
+    height: 125px;
+    width:auto;
+    margin:10px;
+    padding:0px;
 }
+
 .boxsell{
     justify-content: space-between;
     align-items: center;
@@ -203,19 +238,11 @@ footer{
     padding:12px;
     margin:4px;
 }
+                        /* INICIO SESION */
 .field{
     margin: 8px;
 }
-.secmid{
-    justify-content: center;
-    position: relative;
-    display: flex;
-    flex-direction:column;
-    height:150px;
-    width: 200px;
-    margin: 0px;
-    margin-top: 190px;
-}
+
 .conect{
     display:inline-block;
     position: relative;
@@ -225,6 +252,22 @@ footer{
     padding: 4px;
     margin: 8px;
 }
+                        /* VIDEO INDEX*/
+.boxvid{
+    justify-content: center;
+    align-items: center;
+    border:solid 2px white;
+    background-color: rgba(165, 7, 46, 0.192);
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 650px;
+    top: 0px;
+    margin:4px;
+
+}
+                 /*    FOOTER     */
 .ful1{
     justify-content: center;
     display: flex;
@@ -246,49 +289,15 @@ footer{
     margin-right:200px;
     list-style-type: none;
 }
-.hyperx{
-    justify-content: space-around;
+.listfoo{
+    justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 12px;
-    border: solid 2px black;
-    margin-top: 200px;
-    margin-bottom: 75px;
-    height: 150px;
-    width: auto;
+    position: relative;
+    align-content: flex-end;
+    padding: 10px;
+    list-style-type: none;
 }
-.hyper{
-    margin: 2px;
-    border: solid 2px white;
-    height: 150px;
-    width: 1400px;
-}
-.public{
-    margin: 4px;
-    margin-top: 200px;
-    border: solid 4px white;
-    height: 200px;
-    width: 275px;
-}
-.publicc{
-    margin: 4px;
-    border: solid 4px white;
-    height: 300px;
-    width: 250px;
-}
-.boxvid{
-    justify-content: center;
-    align-items: center;
-    border:solid 2px white;
-    background-color: rgba(165, 7, 46, 0.192);
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    height: 400px;
-    width: 650px;
-    top: 0px;
-    margin:4px;
 
-}
 
