@@ -337,5 +337,37 @@ footer{
     padding: 10px;
     list-style-type: none;
 }
+                 /*    MEDIA QUERIES   */
+@media screen and (max-width:826px) {
+    header{
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
 
+    }
+    .flxhead li{
+        margin: 8px;
+        padding:8px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: auto;
+    }
+}
+ @media screen and(max-width:826px) {
+    .hyperx{
+        align-items: center;
+        margin: auto;
+     }
+    .hyper{
+        margin: 2px;
+        width: auto;
+    }
+
+}
 
