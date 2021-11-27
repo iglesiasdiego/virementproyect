@@ -337,8 +337,8 @@ footer{
     padding: 10px;
     list-style-type: none;
 }
-                 /*    MEDIA QUERIES   */
-@media screen and (max-width:1225px) {
+                 /*    MEDIA QUERIES  1228px */
+@media screen and (max-width:1228px) {
     header{
         justify-content: space-between;
         width: auto;
@@ -358,25 +358,32 @@ footer{
         margin-left: 4px;
         width: auto;
     }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+    }
     .parra{
         text-align: center;
         flex-direction: row;
         font-size: 40px;
+        margin: 4px;
     }
     .text{
         width: 500px;
         font-size: 2rem;
         flex-direction: row;
-        text-align: center;
+        text-align: justify;
         margin: 4px;
-        margin-bottom: 150px;
         padding: 4px;
     }
     .contmid{
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        margin:4px;
         height:auto;
     }
     .secmid{
@@ -415,12 +422,14 @@ footer{
     .publicc{
         margin: 4px;
         height: 300px;
-        width: 250px;
+        width: 200px;
+        margin-bottom: 450px;
     }
     .boxvid{
         height: 350px;
         width: auto;
         margin:0px;
+        margin-top: 70px;
     
     }
     .conect{
@@ -430,13 +439,1352 @@ footer{
     }
     .hyperx{
         justify-content: space-around;
-        margin: 2 30px;
-        margin-top: 200px;
+        margin: 4px;
         height: 150px;
         width: auto;
     }
     .hyper{
+        margin-top: 200px;
         height: 100px;
+        width:  100%;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: row;
+        align-content:center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
         width: auto;
     }
+    .ful1{
+        justify-content: center;
+        flex-direction: row;
+        margin: 0px;
+    }
+    .ful1 li{
+        border-bottom: 0px;
+        font-size: 24px;
+        top: 0%;
+        margin: 12px;
+        margin-right: 75px;
+        padding: 8px;
+        list-style-type: none;
+    }
+    .listfoo{
+        justify-content: center;
+        flex-direction: row;
+        align-content: flex-end;
+        padding: 4px;
+        list-style-type: none;
+    }
+}
+/*    MEDIA QUERIES  1228px */
+@media screen and (max-width:1228px) {
+    header{
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+}
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
+                
+    }
+    .flxhead li{
+        margin: 8px;
+        padding:8px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: auto;
+    }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+    }
+    .parra{
+        text-align: center;
+        flex-direction: row;
+        font-size: 40px;
+        margin: 4px;
+    }
+    .text{
+        width: 500px;
+        font-size: 2rem;
+        flex-direction: row;
+        text-align: justify;
+        margin: 4px;
+        padding: 4px;
+    }
+    .contmid{
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin:4px;
+        height:auto;
+    }
+    .secmid{
+        height: 40%;
+        margin: 0px;
+        margin-bottom: 300px;
+    }
+    .midbox{
+        margin-bottom:150px;
+    }
+    .buybox{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buys{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+                    .fieldb{
+                        margin: 12px;
+                    }
+                    .public{
+                        margin: 4px;
+                        margin-top: 150px;
+                        width: 250px;
+                    }
+                    .publicc{
+                        margin: 4px;
+                        height: 300px;
+                        width: 200px;
+                        margin-bottom: 450px;
+                    }
+                    .boxvid{
+                        height: 350px;
+                        width: auto;
+                        margin:0px;
+                        margin-top: 70px;
+                    
+                    }
+                    .conect{
+                        justify-content: flex-start;
+                        height: 150px;
+                        width: auto;
+                    }
+                    .hyperx{
+                        justify-content: space-around;
+                        margin: 4px;
+                        height: 150px;
+                        width: auto;
+                    }
+                    .hyper{
+                        margin-top: 200px;
+                        height: 100px;
+                        width:  100%;
+                    }
+                    footer{
+                        justify-content: center;
+                        flex-direction: row;
+                        align-content:center;
+                        height: 150px;
+                        padding: 0px;
+                        margin: 0px;
+                        width: auto;
+                    }
+                    .ful1{
+                        justify-content: center;
+                        flex-direction: row;
+                        margin: 0px;
+                    }
+                    .ful1 li{
+                        border-bottom: 0px;
+                        font-size: 24px;
+                        top: 0%;
+                        margin: 12px;
+                        margin-right: 75px;
+                        padding: 8px;
+                        list-style-type: none;
+                    }
+                    .listfoo{
+                        justify-content: center;
+                        flex-direction: row;
+                        align-content: flex-end;
+                        padding: 4px;
+                        list-style-type: none;
+                    }
+                }
+ /*    MEDIA QUERIES    968PX*/
+@media screen and (max-width:990px) {
+    header{
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
+                
+    }
+    .flxhead li{
+        margin: 8px;
+        padding:8px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: auto;
+    }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+    }
+    .parra{
+        text-align: center;
+        flex-direction: row;
+        font-size: 40px;
+        margin: 4px;
+    }
+    .text{
+        width: 500px;
+        font-size: 2rem;
+        flex-direction: row;
+        text-align: justify;
+        margin: 4px;
+        padding: 4px;
+    }
+    .contmid{
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: row;
+        height:850px;
+    }
+    .secmid{
+        height: 40%;
+        margin: 0px;
+        margin-bottom: 80%;
+    }
+    .midbox{
+        margin-bottom:570px;
+    }
+    .buybox{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buys{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+    .fieldb{
+        margin: 12px;
+    }
+    .public{
+        margin: 4px;
+        margin-top: 150px;
+        width: 200px;
+    }
+    .publicc{
+        margin: 4px;
+        height: 250px;
+        width: 150px;
+        margin-bottom: 850px;
+    }
+    .boxvid{
+        height: 350px;
+        width: auto;
+        margin:0px;
+        margin-top: 70px;      
+    }
+    .conect{
+        justify-content: flex-start;
+        height: 150px;
+        width: auto;
+    }
+    .hyperx{
+        justify-content: space-around;
+        margin: 4px;
+        height: 150px;
+        width: auto;
+    }
+    .hyper{
+        margin-top: 200px;
+        height: 100px;
+        Width:  100%;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: row;
+        align-content:center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    .ful1{
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0px;
+                    }
+    .ful1 li{
+        border-bottom: 0px;
+        font-size: 20px;
+        top: 0%;
+        margin: 10px;
+        margin-right: 75px;
+        padding: 8px;
+        list-style-type: none;
+    }
+        .listfoo{
+        justify-content: center;
+        padding: 4px;
+        list-style-type: none;
+    }
+}
+                 /*    MEDIA QUERIES    968PX*/
+
+@media screen and (max-width:935px) {
+    header{
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
+                
+    }
+    .flxhead li{
+        margin: 8px;
+        padding:8px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: auto;
+    }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+    }
+    .parra{
+        text-align: center;
+        flex-direction: row;
+        font-size: 40px;
+        margin: 4px;
+    }
+    .text{
+        width: 500px;
+        font-size: 2rem;
+        flex-direction: row;
+        text-align: justify;
+        margin: 4px;
+        padding: 4px;
+    }
+    .contmid{
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: row;
+        height:600px;
+    }
+    .secmid{
+        height: 40%;
+        margin: 0px;
+        margin-bottom: 80%;
+    }
+    .midbox{
+        display: flex;
+        margin: 4px;
+        margin-bottom: 100%;
+        flex-direction: row;
+    }
+    .buybox{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buys{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+    .fieldb{
+        margin: 12px;
+    }
+    .public{
+        margin: 4px;
+        margin-top: 150px;
+        width: 200px;
+    }
+    .publicc{
+        margin: 4px;
+        height: 250px;
+        width: 150px;
+        margin-bottom: 850px;
+    }
+    .boxvid{
+        display: none;
+        height: 350px;
+        width: auto;
+        margin:0px;
+        margin-top: 70px;      
+    }
+    .conect{
+        justify-content: flex-start;
+        height: 150px;
+        width: auto;
+    }
+    .hyperx{
+        justify-content: space-around;
+        margin: 4px;
+        height: 150px;
+        width: auto;
+    }
+    .hyper{
+        margin-top: 200px;
+        height: 100px;
+        Width:  100%;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: row;
+        align-content:center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    .ful1{
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0px;
+                    }
+    .ful1 li{
+        border-bottom: 0px;
+        font-size: 20px;
+        top: 0%;
+        margin: 10px;
+        margin-right: 75px;
+        padding: 8px;
+        list-style-type: none;
+    }
+        .listfoo{
+        justify-content: center;
+        padding: 4px;
+        list-style-type: none;
+    } 
+}
+                 /*    MEDIA QUERIES    886PX*/
+@media screen and (max-width:886px) {
+    header{
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
+                                
+    }
+    .flxhead li{
+        margin: 8px;
+        padding:8px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: auto;
+    }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+                    }
+    .parra{
+        text-align: center;
+        flex-direction: row;
+        font-size: 40px;
+        margin: 4px;
+    }
+    .text{
+        width: 500px;
+        font-size: 2rem;
+        flex-direction: row;
+        text-align: justify;
+        margin: 4px;
+        padding: 4px;
+    }
+    .contmid{
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: row;
+        height:500px;
+    }
+    .secmid{
+        height: 40%;
+        margin: 0px;
+        margin-bottom: 80%;
+    }
+    .midbox{
+        display: flex;
+        margin: 4px;
+        margin-bottom: 100%;
+        flex-direction: row;
+    }
+    .buybox{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buys{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+    .fieldb{
+        margin: 12px;
+    }
+    .public{
+        margin: 4px;
+        margin-top: 150px;
+        width: 200px;
+    }
+    .publicc{
+        display: none;
+        margin: 4px;
+        height: 250px;
+        width: 150px;
+        margin-bottom: 850px;
+    }
+    .boxvid{
+        display: none;
+        height: 350px;
+        width: auto;
+        margin:0px;
+        margin-top: 70px;      
+    }
+    .conect{
+        justify-content: flex-start;
+        height: 150px;
+        width: auto;
+    }
+    .hyperx{
+        justify-content: space-around;
+        margin: 4px;
+        height: 150px;
+        width: auto;
+        }
+    .hyper{
+        margin-top: 200px;
+        height: 100px;
+        Width:  100%;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: row;
+        align-content:center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    .ful1{
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0px;
+                                    }
+    .ful1 li{
+        border-bottom: 0px;
+        font-size: 20px;
+        top: 0%;
+        margin: 10px;
+        margin-right: 75px;
+        padding: 8px;
+        list-style-type: none;
+    }
+    .listfoo{
+        justify-content: center;
+        padding: 4px;
+        list-style-type: none;
+    } 
+}
+                 /*    MEDIA QUERIES    728PX*/
+@media screen and (max-width:730px) {
+    header{
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
+                                
+    }
+    .flxhead li{
+        margin: 8px;
+        padding:8px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: auto;
+    }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+                    }
+    .parra{
+        text-align: center;
+        flex-direction: row;
+        font-size: 40px;
+        margin: 4px;
+    }
+    .text{
+        width: 300px;
+        font-size: 2rem;
+        flex-direction: row;
+        text-align: justify;
+        margin: 4px;
+        padding: 4px;
+    }
+    .contmid{
+        margin-top: 50%;
+        justify-content:center;
+        align-items: center;
+        flex-flow: column wrap;
+        height:350px;
+    }
+    .secmid{
+        height: 40%;
+        margin: 0px;
+        margin-bottom: 80%;
+    }
+    .midbox{
+        display: flex;
+        margin: 4px;
+        margin-bottom: 100%;
+        flex-direction: row;
+    }
+    .buybox{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buys{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+    .fieldb{
+        margin: 12px;
+    }
+    .public{
+        margin: 4px;
+        margin-top: 150px;
+        width: 200px;
+    }
+    .publicc{
+        display: none;
+        margin: 4px;
+        height: 250px;
+        width: 150px;
+        margin-bottom: 850px;
+    }
+    .boxvid{
+        display: none;
+        height: 350px;
+        width: auto;
+        margin:0px;
+        margin-top: 70px;      
+    }
+    .conect{
+        justify-content: flex-start;
+        height: 150px;
+        width: auto;
+    }
+    .hyperx{
+        justify-content: space-around;
+        margin: 4px;
+        height: 150px;
+        width: auto;
+        }
+    .hyper{
+        margin-top: 200px;
+        height: 100px;
+        Width:  100%;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: row;
+        align-content:center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    .ful1{
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0px;
+                                    }
+    .ful1 li{
+        border-bottom: 0px;
+        font-size: 20px;
+        top: 0%;
+        margin: 10px;
+        margin-right: 75px;
+        padding: 8px;
+        list-style-type: none;
+    }
+    .listfoo{
+        justify-content: center;
+        padding: 4px;
+        list-style-type: none;
+    } 
+}                
+ /*    MEDIA QUERIES    728PX*/
+@media screen and (max-width:649px) {
+    header{
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
+                                
+    }
+    .flxhead li{
+        margin: 0px;
+        padding:8px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: auto;
+    }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+                    }
+    .parra{
+        text-align: center;
+        flex-direction: row;
+        font-size: 40px;
+        margin: 4px;
+    }
+    .text{
+        width: 300px;
+        font-size: 2rem;
+        flex-direction: row;
+        text-align: justify;
+        margin: 4px;
+        padding: 4px;
+    }
+    .contmid{
+        margin-top: 50%;
+        justify-content:center;
+        align-items: center;
+        flex-flow: column wrap;
+        height:350px;
+    }
+    .secmid{
+        height: 40%;
+        margin: 0px;
+        margin-bottom: 80%;
+    }
+    .midbox{
+        display: flex;
+        margin: 4px;
+        margin-bottom: 100%;
+        flex-direction: row;
+    }
+    .buybox{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buys{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+    .fieldb{
+        margin: 12px;
+    }
+    .public{
+        margin: 4px;
+        margin-top: 150px;
+        width: 200px;
+    }
+    .publicc{
+        display: none;
+        margin: 4px;
+        height: 250px;
+        width: 150px;
+        margin-bottom: 850px;
+    }
+    .boxvid{
+        display: none;
+        height: 350px;
+        width: auto;
+        margin:0px;
+        margin-top: 70px;      
+    }
+    .conect{
+        justify-content: flex-start;
+        height: 150px;
+        width: auto;
+    }
+    .hyperx{
+        justify-content: space-around;
+        margin: 4px;
+        height: 150px;
+        width: auto;
+        }
+    .hyper{
+        margin-top: 200px;
+        height: 100px;
+        Width:  100%;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: row;
+        align-content:center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    .ful1{
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0px;
+ }
+    .ful1 li{
+        border-bottom: 0px;
+        font-size: 20px;
+        top: 0%;
+        margin-right: 75px;
+        list-style-type: none;
+        margin: 0px;
+        padding:8px;
+    }
+    .listfoo{
+        justify-content: center;
+        padding: 4px;
+        list-style-type: none;
+    } 
+}
+ /*    MEDIA QUERIES    728PX*/
+ @media screen and (max-width:649px) {
+    header{
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
+                                
+    }
+    .flxhead li{
+        border: solid 4px white;
+        margin: 2px;
+        padding: 3px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: auto;
+    }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+                    }
+    .parra{
+        text-align: center;
+        flex-direction: row;
+        font-size: 40px;
+        margin: 4px;
+    }
+    .text{
+        width: 300px;
+        font-size: 2rem;
+        flex-direction: row;
+        text-align: justify;
+        margin: 4px;
+        padding: 4px;
+    }
+    .contmid{
+        margin-top: 50%;
+        justify-content:center;
+        align-items: center;
+        flex-flow: column wrap;
+        height:350px;
+    }
+    .secmid{
+        height: 40%;
+        margin: 0px;
+        margin-bottom: 80%;
+    }
+    .midbox{
+        display: flex;
+        margin: 4px;
+        margin-bottom: 100%;
+        flex-direction: row;
+    }
+    .buybox{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buys{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+    .fieldb{
+        margin: 12px;
+    }
+    .public{
+        margin: 4px;
+        margin-top: 150px;
+        width: 200px;
+    }
+    .publicc{
+        display: none;
+        margin: 4px;
+        height: 250px;
+        width: 150px;
+        margin-bottom: 850px;
+    }
+    .boxvid{
+        display: none;
+        height: 350px;
+        width: auto;
+        margin:0px;
+        margin-top: 70px;      
+    }
+    .conect{
+        justify-content: flex-start;
+        height: 150px;
+        width: auto;
+    }
+    .hyperx{
+        justify-content: space-around;
+        margin: 4px;
+        height: 150px;
+        width: auto;
+        }
+    .hyper{
+        margin-top: 200px;
+        height: 100px;
+        Width:  100%;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: row;
+        align-content:center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    .ful1{
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0px;
+ }
+    .ful1 li{
+        border-bottom: 0px;
+        font-size: 20px;
+        top: 0%;
+        margin-right: 75px;
+        list-style-type: none;
+        margin: 0px;
+        padding:8px;
+    }
+    .listfoo{
+        justify-content: center;
+        padding: 4px;
+        list-style-type: none;
+    } 
+}
+ /*    MEDIA QUERIES    728PX*/
+ @media screen and (max-width:579px) {
+    header{
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
+                                
+    }
+    .flxhead li{
+        border: solid 4px white;
+        margin: 0px;
+        padding: 3px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: 5%;
+    }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+                    }
+    .parra{
+        text-align: center;
+        flex-direction: row;
+        font-size: 40px;
+        margin: 4px;
+    }
+    .text{
+        width: 300px;
+        font-size: 2rem;
+        flex-direction: row;
+        text-align: justify;
+        margin: 4px;
+        padding: 4px;
+    }
+    .contmid{
+        margin-top: 50%;
+        justify-content:center;
+        align-items: center;
+        flex-flow: column wrap;
+        height:350px;
+    }
+    .secmid{
+        height: 40%;
+        margin: 0px;
+        margin-bottom: 80%;
+    }
+    .midbox{
+        display: flex;
+        margin: 4px;
+        margin-bottom: 100%;
+        flex-direction: row;
+    }
+    .buybox{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buys{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+    .fieldb{
+        margin: 12px;
+    }
+    .public{
+        margin: 4px;
+        margin-top: 150px;
+        width: 200px;
+    }
+    .publicc{
+        display: none;
+        margin: 4px;
+        height: 250px;
+        width: 150px;
+        margin-bottom: 850px;
+    }
+    .boxvid{
+        display: none;
+        height: 350px;
+        width: auto;
+        margin:0px;
+        margin-top: 70px;      
+    }
+    .conect{
+        justify-content: flex-start;
+        height: 150px;
+        width: auto;
+    }
+    .hyperx{
+        justify-content: space-around;
+        margin: 4px;
+        height: 150px;
+        width: auto;
+        }
+    .hyper{
+        margin-top: 200px;
+        height: 100px;
+        Width:  100%;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: row;
+        align-content:center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    .ful1{
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0px;
+ }
+    .ful1 li{
+        border-bottom: 0px;
+        font-size: 20px;
+        top: 0%;
+        margin-right: 75px;
+        list-style-type: none;
+        margin: 0px;
+        padding:8px;
+    }
+    .listfoo{
+        justify-content: center;
+        padding: 4px;
+        list-style-type: none;
+    } 
+}
+ /*    MEDIA QUERIES    360PX*/
+ @media screen and (max-width:375px) {
+    header{
+        justify-content:space-between;
+        width: auto;
+        margin: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        margin: 0px;
+                                
+    }
+    .flxhead li{
+        font-size: 12px;
+        border: solid 2px white;
+        margin: 0px;
+        padding: 3px;
+    }
+    .menuic{
+        margin: 0px;
+        margin-left: 4px;
+        width: 100px;
+    }
+    .tittle{
+        margin: 4px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .icon{
+        height: 90px;
+    }
+    main{
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: auto;
+        margin: 0px;
+        margin-top: 250px;
+                    }
+    .parra{
+        text-align: center;
+        flex-direction: row;
+        font-size: 22px;
+        margin: 4px;
+    }
+    .text{
+        width: 300px;
+        font-size: 2rem;
+        flex-direction: row;
+        text-align: justify;
+        margin: 4px;
+        padding: 4px;
+    }
+    .contmid{
+        margin-top: 50%;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        height:350px;
+    }
+    .secmid{
+        display: none;
+        height: 40%;
+        margin: 0px;
+        margin-bottom: 80%;
+    }
+    .midbox{
+        display: flex;
+        margin: 4px;
+        margin-bottom: 100%;
+        flex-direction: row;
+    }
+    .buybox{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buys{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+    .fieldb{
+        margin: 12px;
+    }
+    .public{
+        display: none;
+        margin: 4px;
+        margin-top: 150px;
+        width: 200px;
+    }
+    .publicc{
+        display: none;
+        margin: 4px;
+        height: 250px;
+        width: 150px;
+        margin-bottom: 850px;
+    }
+    .boxvid{
+        display: none;
+        height: 350px;
+        width: auto;
+        margin:0px;
+        margin-top: 70px;      
+    }
+    .conect{
+        margin-bottom: 300px;
+        height: 100px;
+        width: 70px;
+    }
+    .hyperx{
+        justify-content: space-around;
+        margin: 4px;
+        height: 150px;
+        width: auto;
+        }
+    .hyper{
+        margin-top: 200px;
+        height: 100px;
+        Width:  100%;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: row;
+        align-content:center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    .ful1{
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0px;
+ }
+    .ful1 li{
+        border-bottom: 0px;
+        font-size: 14px;
+        top: 0%;
+        margin-right: 75px;
+        list-style-type: none;
+        margin: 0px;
+        padding:8px;
+    }
+    .listfoo{
+        justify-content: center;
+        padding: 4px;
+        list-style-type: none;
+    } 
 }
