@@ -21,6 +21,7 @@ h1,h2{
     font-family: 'Roboto', sans-serif;
 }
 header{
+    z-index: 9999;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
