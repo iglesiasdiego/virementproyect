@@ -1,0 +1,13 @@
+.conect{
+    display:inline-block;
+    position: relative;
+    flex-wrap: wrap;
+    height: 150px;
+    width: auto;
+    padding: 4px;
+    margin: 8px;
+
+    &fieldset{
+        margin: 8px;
+    }
+}

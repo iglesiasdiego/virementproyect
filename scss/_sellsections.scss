@@ -1,0 +1,108 @@
+.boxsellt{
+    justify-content: space-between;
+    align-items: center;
+    border:solid 2px white;
+    background-color: $color-section;
+    display:flex;
+    flex-direction:row;
+    flex-flow:wrap;
+    width: 50%;
+    top: 0px;
+    padding:12px;
+    margin:4px;
+    margin-top: 16px;
+    .buyss{
+        display:inline;
+        justify-content: center;
+        align-items: center;
+   
+        &fieldset{
+            display: flex;
+            flex-direction: row;
+            flex-flow: column wrap;
+            position: relative;
+            border: solid 4px black;
+            height: 125px;
+            width: auto;
+            margin: 4px;
+            padding: 0px;
+        
+            &img:hover{
+                margin: 0px;
+                height: 100px;
+                width: 250px;
+                transform: scale(1.4);
+                transition: 1.7s;
+            }
+        }
+       
+            &form{
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                margin: 4px;
+
+                &input{
+                    margin: 4px;
+                }
+            }
+                
+       
+
+    }
+}
+//  MOUSES
+.boxsell{
+    justify-content: space-between;
+    align-items: center;
+    border:solid 2px white;
+    background-color: $color-section;
+    display:flex;
+    flex-direction:row;
+    flex-flow: column wrap;
+    height: 600px;
+    width: 650px;
+    top: 0px;
+    padding:12px;
+    margin:4px;
+
+    .sell{
+        display: flex;
+        flex-direction: row;
+        flex-flow: column wrap;
+        position: relative;
+        border: solid 4px black;
+        margin: 2px;
+        height: 125px;
+        width:auto;
+        margin:10px;
+        padding:0px;
+    }
+    //  SECTOR DE COMPRAS
+
+}
+.buybox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+    width: auto;
+
+    &section{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 0px;
+
+        &fieldset{
+            margin: 12px;
+        }
+    }
+}
+
+
+ 

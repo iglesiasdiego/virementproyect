@@ -1,0 +1,51 @@
+.parra{
+    height: 150px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: $color-pie;
+    font-size: 52px;
+    margin: 12px;
+    padding: 12px; 
+    top: 0px;
+    word-spacing: 10px;
+}
+.text{
+    position: relative;
+    height: 250px;
+    width: 750px;
+    font-size: $font-20;
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin: 0px;
+    padding: 4px;
+}
+.contmid{
+    justify-content: space-between;
+    position: relative;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin:4px;
+    height: 700px;
+    width: auto;
+    .secmid{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        flex-direction:column;
+        height:150px;
+        width: 200px;
+        margin: 0px;
+        margin-top: 190px;
+    }
+}

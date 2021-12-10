@@ -1,0 +1,38 @@
+.listfoo{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: flex-end;
+    padding: 10px;
+    list-style-type: none;
+
+    &nav  li:hover{
+        font-weight: bold;
+        background-color: $color-pie;
+    
+        &nav{
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0px;
+       
+        &li{
+            border: solid 4px white;
+            border-bottom: 0px;
+            background-color: grey;
+            color: white;
+            display: inline;
+            position: relative;
+            font-size: $font-28;
+            top: 0%;
+            margin: 0px;
+            padding: 10px;
+            margin-right:200px;
+            list-style-type: none;
+            }
+        }
+    }
+}
