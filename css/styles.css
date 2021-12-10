@@ -71,10 +71,7 @@ footer {
   align-content: flex-end;
   margin: 0px;
   padding: 6px; }
-  .flxheadnav ul li:hover {
-    font-weight: bold;
-    background-color: rgba(3, 3, 3, 0.877); }
-  .flxheadli {
+  .flxhead li {
     border: solid 4px white;
     border-bottom: 0px;
     background-color: grey;
@@ -85,6 +82,9 @@ footer {
     margin: 24px;
     padding: 8px;
     list-style-type: none; }
+  .flxhead nav ul li:hover {
+    font-weight: bold;
+    background-color: rgba(3, 3, 3, 0.877); }
 
 .menu {
   height: 150px;
@@ -96,14 +96,14 @@ footer {
   margin: 0px;
   top: 0px;
   background-color: rgba(4, 99, 70, 0.877); }
-  .menu .menuic {
+  .menu section {
     display: block;
     justify-content: center;
     margin: 0px;
     margin-left: 50px;
     height: 148px;
     width: auto; }
-    .menu .menuicimg {
+    .menu section img {
       position: relative;
       margin: 0px;
       margin-left: 25px;
@@ -121,7 +121,7 @@ footer {
   margin-bottom: 50px;
   height: 150px;
   width: auto; }
-  .hyperximg {
+  .hyperx img {
     margin: 2px;
     border: solid 2px white;
     height: 100px;
@@ -185,7 +185,7 @@ footer {
   width: auto;
   padding: 4px;
   margin: 8px; }
-  .conectfieldset {
+  .conect fieldset {
     margin: 8px; }
 
 .boxvid {
@@ -230,7 +230,7 @@ footer {
     display: inline;
     justify-content: center;
     align-items: center; }
-    .boxsellt .buyssfieldset {
+    .boxsellt .buyss fieldset {
       display: flex;
       flex-direction: row;
       flex-flow: column wrap;
@@ -240,18 +240,18 @@ footer {
       width: auto;
       margin: 4px;
       padding: 0px; }
-      .boxsellt .buyssfieldsetimg:hover {
+      .boxsellt .buyss fieldset img:hover {
         margin: 0px;
         height: 100px;
         width: 250px;
         transform: scale(1.4);
         transition: 1.7s; }
-    .boxsellt .buyssform {
+    .boxsellt .buyss form {
       display: flex;
       justify-content: center;
       align-items: center;
       margin: 4px; }
-      .boxsellt .buyssforminput {
+      .boxsellt .buyss form input {
         margin: 4px; }
 
 .boxsell {
@@ -286,7 +286,7 @@ footer {
   flex-wrap: wrap;
   height: 400px;
   width: auto; }
-  .buyboxsection {
+  .buybox section {
     justify-content: center;
     position: relative;
     display: flex;
@@ -294,7 +294,7 @@ footer {
     width: auto;
     margin: 4px;
     padding: 0px; }
-    .buyboxsectionfieldset {
+    .buybox section fieldset {
       margin: 12px; }
 
 .listfoo {
@@ -306,25 +306,25 @@ footer {
   align-content: flex-end;
   padding: 10px;
   list-style-type: none; }
-  .listfoonav li:hover {
-    font-weight: bold;
-    background-color: rgba(3, 3, 3, 0.877); }
-    .listfoonav li:hovernav {
-      justify-content: center;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      margin: 0px; }
-      .listfoonav li:hovernavli {
-        border: solid 4px white;
-        border-bottom: 0px;
-        background-color: grey;
-        color: white;
-        display: inline;
-        position: relative;
-        font-size: 1.75rem;
-        top: 0%;
-        margin: 0px;
-        padding: 10px;
-        margin-right: 200px;
-        list-style-type: none; }
+  .listfoo nav {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px; }
+    .listfoo nav li {
+      border: solid 4px white;
+      border-bottom: 0px;
+      background-color: grey;
+      color: white;
+      display: inline;
+      position: relative;
+      font-size: 1.75rem;
+      top: 0%;
+      margin: 0px;
+      padding: 10px;
+      margin-right: 200px;
+      list-style-type: none; }
+    .listfoo nav li:hover {
+      font-weight: bold;
+      background-color: rgba(3, 3, 3, 0.877); }

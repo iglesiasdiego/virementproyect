@@ -16,7 +16,7 @@
         justify-content: center;
         align-items: center;
    
-        &fieldset{
+       fieldset{
             display: flex;
             flex-direction: row;
             flex-flow: column wrap;
@@ -27,7 +27,7 @@
             margin: 4px;
             padding: 0px;
         
-            &img:hover{
+            img:hover{
                 margin: 0px;
                 height: 100px;
                 width: 250px;
@@ -36,19 +36,16 @@
             }
         }
        
-            &form{
+            form{
                 display: flex;
                 justify-content:center;
                 align-items: center;
                 margin: 4px;
 
-                &input{
+                input{
                     margin: 4px;
                 }
-            }
-                
-       
-
+            }    
     }
 }
 //  MOUSES
@@ -89,7 +86,7 @@
     height: 400px;
     width: auto;
 
-    &section{
+    section{
         justify-content: center;
         position: relative;
         display: flex;
@@ -98,7 +95,7 @@
         margin: 4px;
         padding: 0px;
 
-        &fieldset{
+        fieldset{
             margin: 12px;
         }
     }
