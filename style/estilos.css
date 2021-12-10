@@ -87,6 +87,11 @@ footer{
     padding:8px;
     list-style-type: none;
 }
+.flxhead nav ul li:hover{
+    font-weight: bold;
+    background-color: rgba(3, 3, 3, 0.877);
+
+}
 
                    /*     MENU HEADER */
 .menu{
@@ -201,7 +206,31 @@ footer{
     height: 300px;
     width: auto;
     margin: 4px;
-    padding: 4px;
+    padding: 0px;
+}
+.buyss{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+}
+.buyss form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 4px;
+}
+.buyss form input{
+    margin: 4px;
+}.buyss img{
+    margin: 0px;
+    height: 100px;
+    width: 250px;
+
+}
+.sellt:hover{
+transform:scale(1.4) ;
+transition: 1.7s;
+
 }
 .fieldb{
     margin: 12px;
@@ -229,26 +258,27 @@ footer{
     justify-content: space-between;
     align-items: center;
     border:solid 2px white;
-    background-color: rgba(165, 7, 46, 0.192);
+    background-color: rgba(146, 6, 139, 0.192);
     display:flex;
     flex-direction:row;
-    flex-flow: column wrap;
-    height: 700px;
-    width: 900px;
+    flex-flow:wrap;
+    width: 50%;
     top: 0px;
     padding:12px;
     margin:4px;
+    margin-top: 16px;
 }
+
 .sellt{
-    display: flex;
-    flex-direction: row;
-    flex-flow: column wrap;
-    position: relative;
-    border: solid 4px black;
-    height: 125px;
-    width: auto;
-    margin: 10px;
-    padding: 0px;
+display: flex;
+flex-direction: row;
+flex-flow: column wrap;
+position: relative;
+border: solid 4px black;
+height: 125px;
+width: auto;
+margin: 4px;
+padding: 0px;
 }
 .sell{
     display: flex;
@@ -277,6 +307,7 @@ footer{
     padding:12px;
     margin:4px;
 }
+
                         /* INICIO SESION */
 .field{
     margin: 8px;
@@ -314,6 +345,10 @@ footer{
     flex-wrap: wrap;
     margin: 0px;
 }
+.listfoo nav li:hover{
+    font-weight: bold;
+    background-color: black;
+}
 .ful1 li{
     border: solid 4px white;
     border-bottom: 0px;
@@ -328,6 +363,7 @@ footer{
     margin-right:200px;
     list-style-type: none;
 }
+
 .listfoo{
     justify-content: center;
     display: flex;
@@ -840,6 +876,17 @@ footer{
         margin: 4px;
         padding: 4px;
     }
+    .buyss{
+        display:inline;
+        justify-content: center;
+        align-items: center;
+    }
+    .buyss form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 2px;
+    }
     .fieldb{
         margin: 12px;
     }
@@ -1196,151 +1243,6 @@ footer{
     } 
 }                
  /*    MEDIA QUERIES    728PX*/
-@media screen and (max-width:649px) {
-    header{
-        justify-content: space-between;
-        width: auto;
-        margin: auto;
-    }
-    .menu{
-        align-items: flex-end;
-        margin: 0px;
-                                
-    }
-    .flxhead li{
-        margin: 0px;
-        padding:8px;
-    }
-    .menuic{
-        margin: 0px;
-        margin-left: 4px;
-        width: auto;
-    }
-    main{
-        justify-content: center;
-        flex-direction: column;
-        height: 150px;
-        width: auto;
-        margin: 0px;
-        margin-top: 250px;
-                    }
-    .parra{
-        text-align: center;
-        flex-direction: row;
-        font-size: 40px;
-        margin: 4px;
-    }
-    .text{
-        width: 300px;
-        font-size: 2rem;
-        flex-direction: row;
-        text-align: justify;
-        margin: 4px;
-        padding: 4px;
-    }
-    .contmid{
-        margin-top: 50%;
-        justify-content:center;
-        align-items: center;
-        flex-flow: column wrap;
-        height:350px;
-    }
-    .secmid{
-        height: 40%;
-        margin: 0px;
-        margin-bottom: 80%;
-    }
-    .midbox{
-        display: flex;
-        margin: 4px;
-        margin-bottom: 100%;
-        flex-direction: row;
-    }
-    .buybox{
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 400px;
-        width: auto;
-    }
-    .buys{
-        justify-content: center;
-        position: relative;
-        display: flex;
-        height: 300px;
-        width: auto;
-        margin: 4px;
-        padding: 4px;
-    }
-    .fieldb{
-        margin: 12px;
-    }
-    .public{
-        margin: 4px;
-        margin-top: 150px;
-        width: 200px;
-    }
-    .publicc{
-        display: none;
-        margin: 4px;
-        height: 250px;
-        width: 150px;
-        margin-bottom: 850px;
-    }
-    .boxvid{
-        display: none;
-        height: 350px;
-        width: auto;
-        margin:0px;
-        margin-top: 70px;      
-    }
-    .conect{
-        justify-content: flex-start;
-        height: 150px;
-        width: auto;
-    }
-    .hyperx{
-        justify-content: space-around;
-        margin: 4px;
-        height: 150px;
-        width: auto;
-        }
-    .hyper{
-        margin-top: 200px;
-        height: 100px;
-        Width:  100%;
-    }
-    footer{
-        justify-content: center;
-        flex-direction: row;
-        align-content:center;
-        height: 150px;
-        padding: 0px;
-        margin: 0px;
-        width: auto;
-    }
-    .ful1{
-        justify-content: flex-end;
-        flex-direction: row;
-        margin: 0px;
- }
-    .ful1 li{
-        border-bottom: 0px;
-        font-size: 20px;
-        top: 0%;
-        margin-right: 75px;
-        list-style-type: none;
-        margin: 0px;
-        padding:8px;
-    }
-    .listfoo{
-        justify-content: center;
-        padding: 4px;
-        list-style-type: none;
-    } 
-}
- /*    MEDIA QUERIES    728PX*/
  @media screen and (max-width:649px) {
     header{
         justify-content: space-between;
@@ -1349,8 +1251,7 @@ footer{
     }
     .menu{
         align-items: flex-end;
-        margin: 0px;
-                                
+        margin: 0px;                     
     }
     .flxhead li{
         border: solid 4px white;
@@ -1486,7 +1387,7 @@ footer{
         list-style-type: none;
     } 
 }
- /*    MEDIA QUERIES    728PX*/
+ /*    MEDIA QUERIES    580PX*/
  @media screen and (max-width:579px) {
     header{
         justify-content: space-between;
@@ -1633,76 +1534,98 @@ footer{
     } 
 }
  /*    MEDIA QUERIES    360PX*/
- @media screen and (max-width:375px) {
+ @media screen and (max-width:360px) {
     header{
         justify-content:space-between;
         width: auto;
-        margin: auto;
+        margin: 0px;
     }
     .menu{
+
+        height: 75px;
         align-items: flex-end;
         margin: 0px;
+        width: auto;
                                 
     }
     .flxhead li{
         font-size: 12px;
         border: solid 2px white;
-        margin: 0px;
-        padding: 3px;
+        margin: 4px;
+        padding: 2px;
     }
     .menuic{
         margin: 0px;
-        margin-left: 4px;
-        width: 100px;
+        margin-left: 4px;    
     }
     .tittle{
-        margin: 4px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 12px;
+        margin: 1px;
+        margin-top: 80px;
+        margin-left: 25px;
     }
     .icon{
-        height: 90px;
+        height:50px;
     }
     main{
         justify-content: center;
-        flex-direction: column;
-        height: 150px;
+        flex-direction: row;
+        height: 20px;
         width: auto;
         margin: 0px;
-        margin-top: 250px;
+        margin-top: 120px;
                     }
     .parra{
+        height: 60px;
         text-align: center;
         flex-direction: row;
         font-size: 22px;
         margin: 4px;
     }
     .text{
-        width: 300px;
-        font-size: 2rem;
-        flex-direction: row;
+        height: 50%;
+        font-size: 12px;
+        flex-direction:column;
         text-align: justify;
-        margin: 4px;
+        margin: 2px;
         padding: 4px;
     }
     .contmid{
-        margin-top: 50%;
+        height: 10%;
+        display: flex;
         justify-content:center;
-        align-items: center;
-        flex-direction: column;
-        height:350px;
+        align-content: center;
+        flex-direction: row wrap;
+        margin: auto;
     }
     .secmid{
-        display: none;
-        height: 40%;
-        margin: 0px;
-        margin-bottom: 80%;
+        display: flex;
+        flex-direction: row;
+        margin: 2px;
+        margin-top: 10%;
+        }
+    .field{
+        margin: 0px;   
+     }
+    legend{
+        font-size: 16px;
+    }
+    label{
+        font-size: 12px;
+    }
+    .field input{
+        height: 25px;
+    }
+    .conect{
+        display:inline-block;
+        width: auto;
+        padding: 2px;
+        margin: 2px;
     }
     .midbox{
-        display: flex;
+        display:flex;
         margin: 4px;
-        margin-bottom: 100%;
-        flex-direction: row;
+        margin-bottom: 10px;
     }
     .buybox{
         position: relative;
@@ -1711,6 +1634,27 @@ footer{
         flex-wrap: wrap;
         height: 400px;
         width: auto;
+    }
+    .boxsellt{
+    justify-content: space-between;
+    align-items: center;
+    border:solid 2px white;
+    background-color: rgba(165, 7, 46, 0.192);
+    display:flex;
+    flex-flow:row wrap;
+    height: 70%;
+    width: auto;
+    top: 0px;
+    padding:2px;
+    margin:8px;
+    }
+    .sellt{
+    display: flex;
+    border: solid 4px white;
+    height: 100px;
+    width: auto;
+    margin: 2px;
+    padding: 0px;
     }
     .buys{
         justify-content: center;
@@ -1721,50 +1665,64 @@ footer{
         margin: 4px;
         padding: 4px;
     }
+    .buyss{
+        margin: 8px;
+        display:inline;
+        justify-content: center;
+        align-items: center;
+    }
+    .buyss form{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin: 4px;
+    }
+    .buyss form input{
+        margin: 4px;
+    }
     .fieldb{
         margin: 12px;
     }
     .public{
-        display: none;
-        margin: 4px;
-        margin-top: 150px;
-        width: 200px;
+        height: 170px;
+        margin: 2px;
+        width: 150px;
+        border: solid 2px white;
     }
     .publicc{
-        display: none;
+        display: flex;
         margin: 4px;
-        height: 250px;
-        width: 150px;
-        margin-bottom: 850px;
+        height: 175px;
+        width: 250px;
+        margin-bottom: 20px;
     }
     .boxvid{
-        display: none;
-        height: 350px;
+        display:none;
+        height: 100px;
         width: auto;
         margin:0px;
         margin-top: 70px;      
     }
     .conect{
-        margin-bottom: 300px;
+        margin-bottom: 100px;
         height: 100px;
-        width: 70px;
     }
     .hyperx{
-        justify-content: space-around;
-        margin: 4px;
-        height: 150px;
+        justify-content:center;
+        margin: 2px;
+        height: 85px;
         width: auto;
         }
     .hyper{
-        margin-top: 200px;
-        height: 100px;
-        Width:  100%;
+        margin-top: 110px;
+        height: 75px;
+        width: auto;
     }
     footer{
         justify-content: center;
         flex-direction: row;
         align-content:center;
-        height: 150px;
+        height: 100px;
         padding: 0px;
         margin: 0px;
         width: auto;
