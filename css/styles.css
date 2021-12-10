@@ -78,9 +78,9 @@ footer {
     color: white;
     display: inline;
     position: relative;
-    font-size: 1.25rem;
-    margin: 24px;
-    padding: 8px;
+    font-size: 2rem;
+    margin: 12px;
+    padding: 7px;
     list-style-type: none; }
   .flxhead nav ul li:hover {
     font-weight: bold;
@@ -113,18 +113,16 @@ footer {
 .hyperx {
   justify-content: space-around;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  margin: 12px;
-  border: solid 2px rgba(3, 3, 3, 0.877);
-  margin-top: 200px;
+  margin: 4px;
+  margin-top: 250px;
   margin-bottom: 50px;
-  height: 150px;
+  height: 100px;
   width: auto; }
   .hyperx img {
-    margin: 2px;
     border: solid 2px white;
-    height: 100px;
+    margin: 2px;
+    height: 150px;
     width: 1400px; }
 
 .parra {
@@ -134,7 +132,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  background-color: rgba(3, 3, 3, 0.877);
   font-size: 52px;
   margin: 12px;
   padding: 12px;
@@ -145,7 +142,7 @@ footer {
   position: relative;
   height: 250px;
   width: 750px;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   justify-content: center;
@@ -240,10 +237,11 @@ footer {
       width: auto;
       margin: 4px;
       padding: 0px; }
-      .boxsellt .buyss fieldset img:hover {
+      .boxsellt .buyss fieldset img {
         margin: 0px;
         height: 100px;
-        width: 250px;
+        width: 250px; }
+      .boxsellt .buyss fieldset img:hover {
         transform: scale(1.4);
         transition: 1.7s; }
     .boxsellt .buyss form {
@@ -319,10 +317,10 @@ footer {
       color: white;
       display: inline;
       position: relative;
-      font-size: 1.75rem;
+      font-size: 2rem;
       top: 0%;
       margin: 0px;
-      padding: 10px;
+      padding: 12px;
       margin-right: 200px;
       list-style-type: none; }
     .listfoo nav li:hover {

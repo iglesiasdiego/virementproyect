@@ -27,10 +27,12 @@
             margin: 4px;
             padding: 0px;
         
-            img:hover{
+            img{
                 margin: 0px;
                 height: 100px;
                 width: 250px;
+            }
+            img:hover{
                 transform: scale(1.4);
                 transition: 1.7s;
             }
@@ -45,7 +47,8 @@
                 input{
                     margin: 4px;
                 }
-            }    
+            } 
+
     }
 }
 //  MOUSES
