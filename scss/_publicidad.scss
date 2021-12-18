@@ -6,8 +6,5 @@
     width: 275px;
 }
 .publicc{
-    margin: 4px;
-    border: solid 4px white;
-    height: 300px;
-    width: 250px;
+@extend .public;
 }

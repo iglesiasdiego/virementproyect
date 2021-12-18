@@ -1,0 +1,9 @@
+HEAD:
+Agregue el SEO con sus respectivas descripciones y llamados a motor de busqueda.
+Cambio en titulos de paginas.
+
+PAGES:
+cambio en <P> de pagina COMPRAS.
+
+MIXIN: Agregado de mixin a proyecto.
+EXTEND:Agregado a publicidades, .public a .publicc.
