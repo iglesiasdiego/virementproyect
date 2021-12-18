@@ -7,3 +7,7 @@ cambio en <P> de pagina COMPRAS.
 
 MIXIN: Agregado de mixin a proyecto.
 EXTEND:Agregado a publicidades, .public a .publicc.
+
+
+
+La manera en que agregue el mixin fue para demostrar que entendi la manera de aplicarlo, aunque deberia desarrollarlo mas para comprimir el codigo.
