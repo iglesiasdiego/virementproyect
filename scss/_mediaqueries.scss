@@ -1,0 +1,302 @@
+@media screen and (max-width: 360px) {
+    .flxhead {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;    }
+    .flxhead li {
+        flex-direction: row;
+        position: relative;
+        margin: 0px;
+        font-size: 1.2rem;
+    }
+    .flxhead nav ul li:hover {
+        font-weight: bold;
+        background-color: rgba(3, 3, 3, 0.877);
+        border-radius: 32px;
+    }
+
+    .menu {
+        justify-content: center;
+        height: 120px;
+        width: auto;
+        position: fixed;
+        display: flex;
+        margin: 0px;
+        top: 0px;
+        background-color: rgba(4, 99, 70, 0.877);
+    }
+    .menu section {
+        font-size: 16px;
+        display: block;
+        justify-content: center;
+        margin: 4px;
+        height: 100px;
+        width: auto;
+    }
+    .menu section img {
+        position: relative;
+        margin: 0px;
+        margin-left: 20px;
+        height: 70px;
+        width: auto;
+    }
+
+    .hyperx {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 4px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        height: 100px;
+        width: auto;
+    }
+    .hyperx img {
+        border: solid 2px white;
+        margin: 0px;
+        height: 80px;
+        width: 100%;
+    }
+
+    .parra {
+        height: 60px;
+        width: auto;
+        text-align: center;
+        flex-direction: row;
+        font-size: 22px;
+        margin: 4px;
+    }
+    main {
+        height: 100px;
+        width: auto;
+        margin: 0px;
+        top: 0px;
+    }
+    .text {
+        height: 50%;
+        width: auto;
+        font-size: 12px;
+        flex-direction: row;
+        text-align: justify;
+        margin: 2px;
+        padding: 4px;
+    }
+
+    .contmid {
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row wrap;
+        margin: auto;
+    }
+    .contmid .secmid {
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+
+    .conect {
+        height: 100px;
+
+        legend {
+            font-size: 12px;
+        }
+        label {
+            font-size: 12px;
+        }
+        .field input {
+            height: 25px;
+        }
+    }
+    .boxvid {
+        display: none;
+    }
+    .midbox {
+        display: flex;
+        margin: 4px;
+        margin-bottom: 10px;
+    }
+
+    .public {
+        height: 175px;
+        margin: 0px;
+        width: 130px;
+        border: solid 2px white;
+    }
+
+    .publicc {
+        display: flex;
+        margin: 4px;
+        height: 175px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .buys {
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+    }
+    .boxsellt {
+        justify-content: space-between;
+        align-items: center;
+        border: solid 2px white;
+        background-color: rgba(165, 7, 46, 0.192);
+        display: flex;
+        flex-flow: row wrap;
+        height: 70%;
+        width: auto;
+        top: 0px;
+        padding: 2px;
+        margin: 8px;
+    }
+    .boxsellt .buyss {
+        margin: 8px;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxsellt .buyss fieldset {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-flow: column wrap;
+        position: relative;
+        height: 120px;
+        width: auto;
+        margin: 6px;
+    }
+    .boxsellt .buyss fieldset img {
+        border-radius: 10px;
+        border: solid 2px black;
+        margin: 4px;
+        height: 80px;
+        width: 225px;
+    }
+    .boxsellt .buyss fieldset img:hover {
+        transform: scale(1.4);
+        transition: 1.7s;
+    }
+    .boxsellt .buyss form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+    }
+    .boxsellt .buyss form input {
+        margin: 4px;
+    }
+
+    .boxsell {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+        height: 50%;
+        width: auto;
+    }
+    .boxsell .sell {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+    }
+    .boxsell .sell fieldset {
+        justify-content: center;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-flow: column wrap;
+        position: relative;
+        height: auto;
+        width: auto;
+        margin: 4px;
+    }
+    .boxsell .sell .sellt {
+        margin: 4px;
+        height: 100px;
+        width: auto;
+    }
+    .boxsell .sell form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+    }
+    .boxsell .sell form input {
+        margin: 4px;
+    }
+
+    .buybox {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: auto;
+    }
+    .buybox section {
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 300px;
+        width: auto;
+        margin: 4px;
+        padding: 0px;
+    }
+    .buybox section fieldset {
+        margin: 12px;
+    }
+
+    footer {
+        border: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+        position: relative;
+        height: 100px;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 15%;
+        width: auto;
+        background-color: rgba(4, 99, 70, 0.877);
+    }
+    footer .listfoo {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        align-content: flex-end;
+        padding: 10px;
+        list-style-type: none;
+    }
+    footer .listfoo .ful1 {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    footer .listfoo .ful1 li {
+        color: white;
+        display: inline;
+        position: relative;
+        font-size: 16px;
+        top: 0%;
+        margin: 0px;
+        padding: 10px;
+        list-style-type: none;
+    }
+    footer .listfoo .ful1 nav ul li:hover {
+        font-weight: bold;
+        background-color: rgba(3, 3, 3, 0.877);
+        border-radius: 32px;
+    }
+}

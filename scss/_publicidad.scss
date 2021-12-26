@@ -1,10 +1,10 @@
-.public{
+.public {
     margin: 4px;
     margin-top: 200px;
     border: solid 4px white;
     height: 200px;
     width: 275px;
 }
-.publicc{
-@extend .public;
+.publicc {
+    @extend .public;
 }

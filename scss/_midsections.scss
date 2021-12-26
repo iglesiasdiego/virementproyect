@@ -1,14 +1,13 @@
-                       // Video index
-.boxvid{
+// Video index
+.boxvid {
     justify-content: center;
     align-items: center;
-    border:solid 2px white;
+    border: solid 2px white;
     background-color: $color-section;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     height: 400px;
     width: 650px;
     top: 0px;
-    margin:4px;
-
+    margin: 4px;
 }

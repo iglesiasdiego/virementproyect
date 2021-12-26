@@ -1,4 +1,4 @@
-.parra{
+.parra {
     height: 150px;
     position: relative;
     justify-content: center;
@@ -7,16 +7,16 @@
     text-align: center;
     font-size: 52px;
     margin: 12px;
-    padding: 12px; 
+    padding: 12px;
     top: 0px;
     word-spacing: 10px;
 }
-.text{
+.text {
     position: relative;
     height: 250px;
     width: 750px;
     font-size: $font-28;
-    font-family:'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     justify-content: center;
     display: flex;
@@ -26,7 +26,7 @@
     margin: 0px;
     padding: 4px;
 }
-.contmid{
+.contmid {
     justify-content: space-between;
     position: relative;
     justify-items: center;
@@ -34,15 +34,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 2px;
-    margin:4px;
+    margin: 12px;
     height: 700px;
     width: auto;
-    .secmid{
+    .secmid {
         justify-content: center;
         position: relative;
         display: flex;
-        flex-direction:column;
-        height:150px;
+        flex-direction: column;
+        height: 150px;
         width: 200px;
         margin: 0px;
         margin-top: 190px;

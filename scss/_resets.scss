@@ -1,26 +1,27 @@
-html{
+html {
     font-size: 62.5%;
 }
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+body {
     font-size: 24px;
-    background-color:$color-pie;
+    background-color: $color-pie;
     color: $color-letras;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-a{
+a {
     color: $color-letras;
     text-decoration: none;
 }
-h1,h2{
+h1,
+h2 {
     color: $color-letras;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-header{
+header {
     z-index: 9999;
     flex-direction: row;
     align-items: center;
@@ -32,7 +33,7 @@ header{
     width: 100%;
 }
 
-main{
+main {
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -46,16 +47,16 @@ main{
     margin: 0px;
     top: 0px;
 }
-p{
+p {
     color: $color-letras;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: $font-12;
 }
-footer{
-    display:flex;
+footer {
+    display: flex;
     justify-content: center;
     flex-direction: row;
-    align-content:center;
+    align-content: center;
     position: relative;
     height: 150px;
     padding: 0px;

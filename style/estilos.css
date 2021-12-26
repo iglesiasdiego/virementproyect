@@ -1,26 +1,27 @@
-html{
+html {
     font-size: 62.5%;
 }
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+body {
     font-size: 24px;
     background-color: black;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-a{
+a {
     color: white;
     text-decoration: none;
 }
-h1,h2{
+h1,
+h2 {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-header{
+header {
     z-index: 9999;
     flex-direction: row;
     align-items: center;
@@ -32,7 +33,7 @@ header{
     width: 100%;
 }
 
-main{
+main {
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -46,16 +47,16 @@ main{
     margin: 0px;
     top: 0px;
 }
-p{
+p {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 12px;
 }
-footer{
-    display:flex;
+footer {
+    display: flex;
     justify-content: center;
     flex-direction: row;
-    align-content:center;
+    align-content: center;
     position: relative;
     height: 150px;
     padding: 0px;
@@ -67,7 +68,7 @@ footer{
 }
 /*     HEADER     */
 
-.flxhead{
+.flxhead {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -75,7 +76,7 @@ footer{
     margin: 0px;
     padding: 6px;
 }
-.flxhead li{
+.flxhead li {
     border: solid 4px white;
     border-bottom: 0px;
     background-color: grey;
@@ -83,18 +84,17 @@ footer{
     display: inline;
     position: relative;
     font-size: 20px;
-    margin:24px;
-    padding:8px;
+    margin: 24px;
+    padding: 8px;
     list-style-type: none;
 }
-.flxhead nav ul li:hover{
+.flxhead nav ul li:hover {
     font-weight: bold;
     background-color: rgba(3, 3, 3, 0.877);
-
 }
 
-                   /*     MENU HEADER */
-.menu{
+/*     MENU HEADER */
+.menu {
     height: 150px;
     width: 100%;
     justify-content: space-between;
@@ -105,23 +105,23 @@ footer{
     top: 0px;
     background-color: rgba(4, 99, 70, 0.877);
 }
-.menuic{
-    display:block;
-    justify-content:center;
+.menuic {
+    display: block;
+    justify-content: center;
     margin: 0px;
     margin-left: 50px;
     height: 148px;
     width: auto;
 }
-.icon{
+.icon {
     position: relative;
     margin: 0px;
     margin-left: 25px;
     height: 100px;
     width: auto;
 }
-                        /* BAN HYPER*/
-.hyperx{
+/* BAN HYPER*/
+.hyperx {
     justify-content: space-around;
     display: flex;
     flex-direction: row;
@@ -133,14 +133,14 @@ footer{
     height: 150px;
     width: auto;
 }
-.hyper{
+.hyper {
     margin: 2px;
     border: solid 2px white;
     height: 100px;
     width: 1400px;
 }
-                        /*  MID  */
-.parra{
+/*  MID  */
+.parra {
     height: 150px;
     position: relative;
     justify-content: center;
@@ -150,16 +150,16 @@ footer{
     background-color: black(165, 7, 46, 0.192);
     font-size: 52px;
     margin: 12px;
-    padding: 12px; 
+    padding: 12px;
     top: 0px;
     word-spacing: 10px;
 }
-.text{
+.text {
     position: relative;
     height: 250px;
     width: 750px;
     font-size: 20px;
-    font-family:'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     justify-content: center;
     display: flex;
@@ -169,7 +169,7 @@ footer{
     margin: 0px;
     padding: 4px;
 }
-.contmid{
+.contmid {
     justify-content: space-between;
     position: relative;
     justify-items: center;
@@ -177,21 +177,21 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     padding: 2px;
-    margin:4px;
+    margin: 4px;
     height: 700px;
     width: auto;
 }
-.secmid{
+.secmid {
     justify-content: center;
     position: relative;
     display: flex;
-    flex-direction:column;
-    height:150px;
+    flex-direction: column;
+    height: 150px;
     width: 200px;
     margin: 0px;
     margin-top: 190px;
 }
-.buybox{
+.buybox {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -199,7 +199,7 @@ footer{
     height: 400px;
     width: auto;
 }
-.buys{
+.buys {
     justify-content: center;
     position: relative;
     display: flex;
@@ -208,79 +208,77 @@ footer{
     margin: 4px;
     padding: 0px;
 }
-.buyss{
-    display:inline;
+.buyss {
+    display: inline;
     justify-content: center;
     align-items: center;
 }
-.buyss form{
+.buyss form {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin: 4px;
 }
-.buyss form input{
+.buyss form input {
     margin: 4px;
-}.buyss img{
+}
+.buyss img {
     margin: 0px;
     height: 100px;
     width: 250px;
-
 }
-.sellt:hover{
-transform:scale(1.4) ;
-transition: 1.7s;
-
+.sellt:hover {
+    transform: scale(1.4);
+    transition: 1.7s;
 }
-.fieldb{
+.fieldb {
     margin: 12px;
 }
 
-                        /*  PUBLICIDAD */
+/*  PUBLICIDAD */
 
-.public{
+.public {
     margin: 4px;
     margin-top: 200px;
     border: solid 4px white;
     height: 200px;
     width: 275px;
 }
-.publicc{
+.publicc {
     margin: 4px;
     border: solid 4px white;
     height: 300px;
     width: 250px;
 }
-                        /*   VENTAS   */
+/*   VENTAS   */
 
-
-.boxsellt{
+.boxsellt {
     justify-content: space-between;
     align-items: center;
-    border:solid 2px white;
+    border: solid 2px white;
     background-color: rgba(146, 6, 139, 0.192);
-    display:flex;
-    flex-direction:row;
-    flex-flow:wrap;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
     width: 50%;
     top: 0px;
-    padding:12px;
-    margin:4px;
+    padding: 12px;
+    margin: 4px;
     margin-top: 16px;
 }
 
-.sellt{
-display: flex;
-flex-direction: row;
-flex-flow: column wrap;
-position: relative;
-border: solid 4px black;
-height: 125px;
-width: auto;
-margin: 4px;
-padding: 0px;
+.sellt {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column wrap;
+    position: relative;
+    border: solid 4px black;
+    height: 125px;
+    width: auto;
+    margin: 4px;
+    padding: 0px;
 }
-.sell{
+.sell {
     display: flex;
     flex-direction: row;
     flex-flow: column wrap;
@@ -288,33 +286,33 @@ padding: 0px;
     border: solid 4px black;
     margin: 2px;
     height: 125px;
-    width:auto;
-    margin:10px;
-    padding:0px;
+    width: auto;
+    margin: 10px;
+    padding: 0px;
 }
 
-.boxsell{
+.boxsell {
     justify-content: space-between;
     align-items: center;
-    border:solid 2px white;
+    border: solid 2px white;
     background-color: rgba(165, 7, 46, 0.192);
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     flex-flow: column wrap;
     height: 600px;
     width: 650px;
     top: 0px;
-    padding:12px;
-    margin:4px;
+    padding: 12px;
+    margin: 4px;
 }
 
-                        /* INICIO SESION */
-.field{
+/* INICIO SESION */
+.field {
     margin: 8px;
 }
 
-.conect{
-    display:inline-block;
+.conect {
+    display: inline-block;
     position: relative;
     flex-wrap: wrap;
     height: 150px;
@@ -322,34 +320,33 @@ padding: 0px;
     padding: 4px;
     margin: 8px;
 }
-                        /* VIDEO INDEX*/
-.boxvid{
+/* VIDEO INDEX*/
+.boxvid {
     justify-content: center;
     align-items: center;
-    border:solid 2px white;
+    border: solid 2px white;
     background-color: rgba(165, 7, 46, 0.192);
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     height: 400px;
     width: 650px;
     top: 0px;
-    margin:4px;
-
+    margin: 4px;
 }
-                 /*    FOOTER     */
-.ful1{
+/*    FOOTER     */
+.ful1 {
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0px;
 }
-.listfoo nav li:hover{
+.listfoo nav li:hover {
     font-weight: bold;
     background-color: black;
 }
-.ful1 li{
+.ful1 li {
     border: solid 4px white;
     border-bottom: 0px;
     background-color: grey;
@@ -360,11 +357,11 @@ padding: 0px;
     top: 0%;
     margin: 0px;
     padding: 10px;
-    margin-right:200px;
+    margin-right: 200px;
     list-style-type: none;
 }
 
-.listfoo{
+.listfoo {
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -374,28 +371,27 @@ padding: 0px;
     padding: 10px;
     list-style-type: none;
 }
-                 /*    MEDIA QUERIES  1228px */
-@media screen and (max-width:1228px) {
-    header{
+/*    MEDIA QUERIES  1228px */
+@media screen and (max-width: 1228px) {
+    header {
         justify-content: space-between;
         width: auto;
         margin: auto;
     }
-    .menu{
+    .menu {
         align-items: flex-end;
         margin: 0px;
-
     }
-    .flxhead li{
+    .flxhead li {
         margin: 8px;
-        padding:8px;
+        padding: 8px;
     }
-    .menuic{
+    .menuic {
         margin: 0px;
         margin-left: 4px;
         width: auto;
     }
-    main{
+    main {
         justify-content: center;
         flex-direction: column;
         height: 150px;
@@ -403,13 +399,13 @@ padding: 0px;
         margin: 0px;
         margin-top: 250px;
     }
-    .parra{
+    .parra {
         text-align: center;
         flex-direction: row;
         font-size: 40px;
         margin: 4px;
     }
-    .text{
+    .text {
         width: 500px;
         font-size: 2rem;
         flex-direction: row;
@@ -417,21 +413,21 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .contmid{
+    .contmid {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        height:auto;
+        height: auto;
     }
-    .secmid{
+    .secmid {
         height: 40%;
         margin: 0px;
         margin-bottom: 300px;
     }
-    .midbox{
-        margin-bottom:150px;
+    .midbox {
+        margin-bottom: 150px;
     }
-    .buybox{
+    .buybox {
         position: relative;
         display: flex;
         flex-direction: row;
@@ -439,7 +435,7 @@ padding: 0px;
         height: 400px;
         width: auto;
     }
-    .buys{
+    .buys {
         justify-content: center;
         position: relative;
         display: flex;
@@ -448,58 +444,57 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .fieldb{
+    .fieldb {
         margin: 12px;
     }
-    .public{
+    .public {
         margin: 4px;
         margin-top: 150px;
         width: 250px;
     }
-    .publicc{
+    .publicc {
         margin: 4px;
         height: 300px;
         width: 200px;
         margin-bottom: 450px;
     }
-    .boxvid{
+    .boxvid {
         height: 350px;
         width: auto;
-        margin:0px;
+        margin: 0px;
         margin-top: 70px;
-    
     }
-    .conect{
+    .conect {
         justify-content: flex-start;
         height: 150px;
         width: auto;
     }
-    .hyperx{
+    .hyperx {
         justify-content: space-around;
         margin: 4px;
         height: 150px;
         width: auto;
     }
-    .hyper{
+    .hyper {
         margin-top: 200px;
         height: 100px;
-        width:  100%;
+        width: 100%;
     }
-    footer{
+    footer {
         justify-content: center;
         flex-direction: row;
-        align-content:center;
+        align-content: center;
         height: 150px;
         padding: 0px;
         margin: 0px;
         width: auto;
     }
-    .ful1{
+    .ful1 {
         justify-content: center;
         flex-direction: row;
         margin: 0px;
     }
-    .ful1 li{
+    .ful1 li {
         border-bottom: 0px;
         font-size: 24px;
         top: 0%;
@@ -508,7 +503,7 @@ padding: 0px;
         padding: 8px;
         list-style-type: none;
     }
-    .listfoo{
+    .listfoo {
         justify-content: center;
         flex-direction: row;
         align-content: flex-end;
@@ -517,27 +512,26 @@ padding: 0px;
     }
 }
 /*    MEDIA QUERIES  1228px */
-@media screen and (max-width:1228px) {
-    header{
+@media screen and (max-width: 1228px) {
+    header {
         justify-content: space-between;
         width: auto;
         margin: auto;
-}
-    .menu{
+    }
+    .menu {
         align-items: flex-end;
         margin: 0px;
-                
     }
-    .flxhead li{
+    .flxhead li {
         margin: 8px;
-        padding:8px;
+        padding: 8px;
     }
-    .menuic{
+    .menuic {
         margin: 0px;
         margin-left: 4px;
         width: auto;
     }
-    main{
+    main {
         justify-content: center;
         flex-direction: column;
         height: 150px;
@@ -545,13 +539,13 @@ padding: 0px;
         margin: 0px;
         margin-top: 250px;
     }
-    .parra{
+    .parra {
         text-align: center;
         flex-direction: row;
         font-size: 40px;
         margin: 4px;
     }
-    .text{
+    .text {
         width: 500px;
         font-size: 2rem;
         flex-direction: row;
@@ -559,22 +553,22 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .contmid{
+    .contmid {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        margin:4px;
-        height:auto;
+        margin: 4px;
+        height: auto;
     }
-    .secmid{
+    .secmid {
         height: 40%;
         margin: 0px;
         margin-bottom: 300px;
     }
-    .midbox{
-        margin-bottom:150px;
+    .midbox {
+        margin-bottom: 150px;
     }
-    .buybox{
+    .buybox {
         position: relative;
         display: flex;
         flex-direction: row;
@@ -582,7 +576,7 @@ padding: 0px;
         height: 400px;
         width: auto;
     }
-    .buys{
+    .buys {
         justify-content: center;
         position: relative;
         display: flex;
@@ -591,96 +585,94 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-                    .fieldb{
-                        margin: 12px;
-                    }
-                    .public{
-                        margin: 4px;
-                        margin-top: 150px;
-                        width: 250px;
-                    }
-                    .publicc{
-                        margin: 4px;
-                        height: 300px;
-                        width: 200px;
-                        margin-bottom: 450px;
-                    }
-                    .boxvid{
-                        height: 350px;
-                        width: auto;
-                        margin:0px;
-                        margin-top: 70px;
-                    
-                    }
-                    .conect{
-                        justify-content: flex-start;
-                        height: 150px;
-                        width: auto;
-                    }
-                    .hyperx{
-                        justify-content: space-around;
-                        margin: 4px;
-                        height: 150px;
-                        width: auto;
-                    }
-                    .hyper{
-                        margin-top: 200px;
-                        height: 100px;
-                        width:  100%;
-                    }
-                    footer{
-                        justify-content: center;
-                        flex-direction: row;
-                        align-content:center;
-                        height: 150px;
-                        padding: 0px;
-                        margin: 0px;
-                        width: auto;
-                    }
-                    .ful1{
-                        justify-content: center;
-                        flex-direction: row;
-                        margin: 0px;
-                    }
-                    .ful1 li{
-                        border-bottom: 0px;
-                        font-size: 24px;
-                        top: 0%;
-                        margin: 12px;
-                        margin-right: 75px;
-                        padding: 8px;
-                        list-style-type: none;
-                    }
-                    .listfoo{
-                        justify-content: center;
-                        flex-direction: row;
-                        align-content: flex-end;
-                        padding: 4px;
-                        list-style-type: none;
-                    }
-                }
- /*    MEDIA QUERIES    968PX*/
-@media screen and (max-width:990px) {
-    header{
+    .fieldb {
+        margin: 12px;
+    }
+    .public {
+        margin: 4px;
+        margin-top: 150px;
+        width: 250px;
+    }
+    .publicc {
+        margin: 4px;
+        height: 300px;
+        width: 200px;
+        margin-bottom: 450px;
+    }
+    .boxvid {
+        height: 350px;
+        width: auto;
+        margin: 0px;
+        margin-top: 70px;
+    }
+    .conect {
+        justify-content: flex-start;
+        height: 150px;
+        width: auto;
+    }
+    .hyperx {
+        justify-content: space-around;
+        margin: 4px;
+        height: 150px;
+        width: auto;
+    }
+    .hyper {
+        margin-top: 200px;
+        height: 100px;
+        width: 100%;
+    }
+    footer {
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+    .ful1 {
+        justify-content: center;
+        flex-direction: row;
+        margin: 0px;
+    }
+    .ful1 li {
+        border-bottom: 0px;
+        font-size: 24px;
+        top: 0%;
+        margin: 12px;
+        margin-right: 75px;
+        padding: 8px;
+        list-style-type: none;
+    }
+    .listfoo {
+        justify-content: center;
+        flex-direction: row;
+        align-content: flex-end;
+        padding: 4px;
+        list-style-type: none;
+    }
+}
+/*    MEDIA QUERIES    968PX*/
+@media screen and (max-width: 990px) {
+    header {
         justify-content: space-between;
         width: auto;
         margin: auto;
     }
-    .menu{
+    .menu {
         align-items: flex-end;
         margin: 0px;
-                
     }
-    .flxhead li{
+    .flxhead li {
         margin: 8px;
-        padding:8px;
+        padding: 8px;
     }
-    .menuic{
+    .menuic {
         margin: 0px;
         margin-left: 4px;
         width: auto;
     }
-    main{
+    main {
         justify-content: center;
         flex-direction: column;
         height: 150px;
@@ -688,13 +680,13 @@ padding: 0px;
         margin: 0px;
         margin-top: 250px;
     }
-    .parra{
+    .parra {
         text-align: center;
         flex-direction: row;
         font-size: 40px;
         margin: 4px;
     }
-    .text{
+    .text {
         width: 500px;
         font-size: 2rem;
         flex-direction: row;
@@ -702,21 +694,21 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .contmid{
-        justify-content:space-around;
+    .contmid {
+        justify-content: space-around;
         align-items: center;
         flex-direction: row;
-        height:850px;
+        height: 850px;
     }
-    .secmid{
+    .secmid {
         height: 40%;
         margin: 0px;
         margin-bottom: 80%;
     }
-    .midbox{
-        margin-bottom:570px;
+    .midbox {
+        margin-bottom: 570px;
     }
-    .buybox{
+    .buybox {
         position: relative;
         display: flex;
         flex-direction: row;
@@ -724,7 +716,7 @@ padding: 0px;
         height: 400px;
         width: auto;
     }
-    .buys{
+    .buys {
         justify-content: center;
         position: relative;
         display: flex;
@@ -733,57 +725,57 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .fieldb{
+    .fieldb {
         margin: 12px;
     }
-    .public{
+    .public {
         margin: 4px;
         margin-top: 150px;
         width: 200px;
     }
-    .publicc{
+    .publicc {
         margin: 4px;
         height: 250px;
         width: 150px;
         margin-bottom: 850px;
     }
-    .boxvid{
+    .boxvid {
         height: 350px;
         width: auto;
-        margin:0px;
-        margin-top: 70px;      
+        margin: 0px;
+        margin-top: 70px;
     }
-    .conect{
+    .conect {
         justify-content: flex-start;
         height: 150px;
         width: auto;
     }
-    .hyperx{
+    .hyperx {
         justify-content: space-around;
         margin: 4px;
         height: 150px;
         width: auto;
     }
-    .hyper{
+    .hyper {
         margin-top: 200px;
         height: 100px;
-        Width:  100%;
+        width: 100%;
     }
-    footer{
+    footer {
         justify-content: center;
         flex-direction: row;
-        align-content:center;
+        align-content: center;
         height: 150px;
         padding: 0px;
         margin: 0px;
         width: auto;
     }
-    .ful1{
+    .ful1 {
         justify-content: flex-end;
         flex-direction: row;
         margin: 0px;
-                    }
-    .ful1 li{
+    }
+    .ful1 li {
         border-bottom: 0px;
         font-size: 20px;
         top: 0%;
@@ -792,35 +784,34 @@ padding: 0px;
         padding: 8px;
         list-style-type: none;
     }
-        .listfoo{
+    .listfoo {
         justify-content: center;
         padding: 4px;
         list-style-type: none;
     }
 }
-                 /*    MEDIA QUERIES    968PX*/
+/*    MEDIA QUERIES    968PX*/
 
-@media screen and (max-width:935px) {
-    header{
+@media screen and (max-width: 935px) {
+    header {
         justify-content: space-between;
         width: auto;
         margin: auto;
     }
-    .menu{
+    .menu {
         align-items: flex-end;
         margin: 0px;
-                
     }
-    .flxhead li{
+    .flxhead li {
         margin: 8px;
-        padding:8px;
+        padding: 8px;
     }
-    .menuic{
+    .menuic {
         margin: 0px;
         margin-left: 4px;
         width: auto;
     }
-    main{
+    main {
         justify-content: center;
         flex-direction: column;
         height: 150px;
@@ -828,13 +819,13 @@ padding: 0px;
         margin: 0px;
         margin-top: 250px;
     }
-    .parra{
+    .parra {
         text-align: center;
         flex-direction: row;
         font-size: 40px;
         margin: 4px;
     }
-    .text{
+    .text {
         width: 500px;
         font-size: 2rem;
         flex-direction: row;
@@ -842,24 +833,24 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .contmid{
-        justify-content:space-around;
+    .contmid {
+        justify-content: space-around;
         align-items: center;
         flex-direction: row;
-        height:600px;
+        height: 600px;
     }
-    .secmid{
+    .secmid {
         height: 40%;
         margin: 0px;
         margin-bottom: 80%;
     }
-    .midbox{
+    .midbox {
         display: flex;
         margin: 4px;
         margin-bottom: 100%;
         flex-direction: row;
     }
-    .buybox{
+    .buybox {
         position: relative;
         display: flex;
         flex-direction: row;
@@ -867,7 +858,7 @@ padding: 0px;
         height: 400px;
         width: auto;
     }
-    .buys{
+    .buys {
         justify-content: center;
         position: relative;
         display: flex;
@@ -876,69 +867,69 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .buyss{
-        display:inline;
+    .buyss {
+        display: inline;
         justify-content: center;
         align-items: center;
     }
-    .buyss form{
+    .buyss form {
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin: 2px;
     }
-    .fieldb{
+    .fieldb {
         margin: 12px;
     }
-    .public{
+    .public {
         margin: 4px;
         margin-top: 150px;
         width: 200px;
     }
-    .publicc{
+    .publicc {
         margin: 4px;
         height: 250px;
         width: 150px;
         margin-bottom: 850px;
     }
-    .boxvid{
+    .boxvid {
         display: none;
         height: 350px;
         width: auto;
-        margin:0px;
-        margin-top: 70px;      
+        margin: 0px;
+        margin-top: 70px;
     }
-    .conect{
+    .conect {
         justify-content: flex-start;
         height: 150px;
         width: auto;
     }
-    .hyperx{
+    .hyperx {
         justify-content: space-around;
         margin: 4px;
         height: 150px;
         width: auto;
     }
-    .hyper{
+    .hyper {
         margin-top: 200px;
         height: 100px;
-        Width:  100%;
+        width: 100%;
     }
-    footer{
+    footer {
         justify-content: center;
         flex-direction: row;
-        align-content:center;
+        align-content: center;
         height: 150px;
         padding: 0px;
         margin: 0px;
         width: auto;
     }
-    .ful1{
+    .ful1 {
         justify-content: flex-end;
         flex-direction: row;
         margin: 0px;
-                    }
-    .ful1 li{
+    }
+    .ful1 li {
         border-bottom: 0px;
         font-size: 20px;
         top: 0%;
@@ -947,48 +938,47 @@ padding: 0px;
         padding: 8px;
         list-style-type: none;
     }
-        .listfoo{
+    .listfoo {
         justify-content: center;
         padding: 4px;
         list-style-type: none;
-    } 
+    }
 }
-                 /*    MEDIA QUERIES    886PX*/
-@media screen and (max-width:886px) {
-    header{
+/*    MEDIA QUERIES    886PX*/
+@media screen and (max-width: 886px) {
+    header {
         justify-content: space-between;
         width: auto;
         margin: auto;
     }
-    .menu{
+    .menu {
         align-items: flex-end;
         margin: 0px;
-                                
     }
-    .flxhead li{
+    .flxhead li {
         margin: 8px;
-        padding:8px;
+        padding: 8px;
     }
-    .menuic{
+    .menuic {
         margin: 0px;
         margin-left: 4px;
         width: auto;
     }
-    main{
+    main {
         justify-content: center;
         flex-direction: column;
         height: 150px;
         width: auto;
         margin: 0px;
         margin-top: 250px;
-                    }
-    .parra{
+    }
+    .parra {
         text-align: center;
         flex-direction: row;
         font-size: 40px;
         margin: 4px;
     }
-    .text{
+    .text {
         width: 500px;
         font-size: 2rem;
         flex-direction: row;
@@ -996,24 +986,24 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .contmid{
-        justify-content:space-around;
+    .contmid {
+        justify-content: space-around;
         align-items: center;
         flex-direction: row;
-        height:500px;
+        height: 500px;
     }
-    .secmid{
+    .secmid {
         height: 40%;
         margin: 0px;
         margin-bottom: 80%;
     }
-    .midbox{
+    .midbox {
         display: flex;
         margin: 4px;
         margin-bottom: 100%;
         flex-direction: row;
     }
-    .buybox{
+    .buybox {
         position: relative;
         display: flex;
         flex-direction: row;
@@ -1021,7 +1011,7 @@ padding: 0px;
         height: 400px;
         width: auto;
     }
-    .buys{
+    .buys {
         justify-content: center;
         position: relative;
         display: flex;
@@ -1030,59 +1020,59 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .fieldb{
+    .fieldb {
         margin: 12px;
     }
-    .public{
+    .public {
         margin: 4px;
         margin-top: 150px;
         width: 200px;
     }
-    .publicc{
+    .publicc {
         display: none;
         margin: 4px;
         height: 250px;
         width: 150px;
         margin-bottom: 850px;
     }
-    .boxvid{
+    .boxvid {
         display: none;
         height: 350px;
         width: auto;
-        margin:0px;
-        margin-top: 70px;      
+        margin: 0px;
+        margin-top: 70px;
     }
-    .conect{
+    .conect {
         justify-content: flex-start;
         height: 150px;
         width: auto;
     }
-    .hyperx{
+    .hyperx {
         justify-content: space-around;
         margin: 4px;
         height: 150px;
         width: auto;
-        }
-    .hyper{
+    }
+    .hyper {
         margin-top: 200px;
         height: 100px;
-        Width:  100%;
+        width: 100%;
     }
-    footer{
+    footer {
         justify-content: center;
         flex-direction: row;
-        align-content:center;
+        align-content: center;
         height: 150px;
         padding: 0px;
         margin: 0px;
         width: auto;
     }
-    .ful1{
+    .ful1 {
         justify-content: flex-end;
         flex-direction: row;
         margin: 0px;
-                                    }
-    .ful1 li{
+    }
+    .ful1 li {
         border-bottom: 0px;
         font-size: 20px;
         top: 0%;
@@ -1091,48 +1081,47 @@ padding: 0px;
         padding: 8px;
         list-style-type: none;
     }
-    .listfoo{
+    .listfoo {
         justify-content: center;
         padding: 4px;
         list-style-type: none;
-    } 
+    }
 }
-                 /*    MEDIA QUERIES    728PX*/
-@media screen and (max-width:730px) {
-    header{
+/*    MEDIA QUERIES    728PX*/
+@media screen and (max-width: 730px) {
+    header {
         justify-content: space-between;
         width: auto;
         margin: auto;
     }
-    .menu{
+    .menu {
         align-items: flex-end;
         margin: 0px;
-                                
     }
-    .flxhead li{
+    .flxhead li {
         margin: 8px;
-        padding:8px;
+        padding: 8px;
     }
-    .menuic{
+    .menuic {
         margin: 0px;
         margin-left: 4px;
         width: auto;
     }
-    main{
+    main {
         justify-content: center;
         flex-direction: column;
         height: 150px;
         width: auto;
         margin: 0px;
         margin-top: 250px;
-                    }
-    .parra{
+    }
+    .parra {
         text-align: center;
         flex-direction: row;
         font-size: 40px;
         margin: 4px;
     }
-    .text{
+    .text {
         width: 300px;
         font-size: 2rem;
         flex-direction: row;
@@ -1140,25 +1129,25 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .contmid{
+    .contmid {
         margin-top: 50%;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         flex-flow: column wrap;
-        height:350px;
+        height: 350px;
     }
-    .secmid{
+    .secmid {
         height: 40%;
         margin: 0px;
         margin-bottom: 80%;
     }
-    .midbox{
+    .midbox {
         display: flex;
         margin: 4px;
         margin-bottom: 100%;
         flex-direction: row;
     }
-    .buybox{
+    .buybox {
         position: relative;
         display: flex;
         flex-direction: row;
@@ -1166,7 +1155,7 @@ padding: 0px;
         height: 400px;
         width: auto;
     }
-    .buys{
+    .buys {
         justify-content: center;
         position: relative;
         display: flex;
@@ -1175,59 +1164,59 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .fieldb{
+    .fieldb {
         margin: 12px;
     }
-    .public{
+    .public {
         margin: 4px;
         margin-top: 150px;
         width: 200px;
     }
-    .publicc{
+    .publicc {
         display: none;
         margin: 4px;
         height: 250px;
         width: 150px;
         margin-bottom: 850px;
     }
-    .boxvid{
+    .boxvid {
         display: none;
         height: 350px;
         width: auto;
-        margin:0px;
-        margin-top: 70px;      
+        margin: 0px;
+        margin-top: 70px;
     }
-    .conect{
+    .conect {
         justify-content: flex-start;
         height: 150px;
         width: auto;
     }
-    .hyperx{
+    .hyperx {
         justify-content: space-around;
         margin: 4px;
         height: 150px;
         width: auto;
-        }
-    .hyper{
+    }
+    .hyper {
         margin-top: 200px;
         height: 100px;
-        Width:  100%;
+        width: 100%;
     }
-    footer{
+    footer {
         justify-content: center;
         flex-direction: row;
-        align-content:center;
+        align-content: center;
         height: 150px;
         padding: 0px;
         margin: 0px;
         width: auto;
     }
-    .ful1{
+    .ful1 {
         justify-content: flex-end;
         flex-direction: row;
         margin: 0px;
-                                    }
-    .ful1 li{
+    }
+    .ful1 li {
         border-bottom: 0px;
         font-size: 20px;
         top: 0%;
@@ -1236,48 +1225,48 @@ padding: 0px;
         padding: 8px;
         list-style-type: none;
     }
-    .listfoo{
+    .listfoo {
         justify-content: center;
         padding: 4px;
         list-style-type: none;
-    } 
-}                
- /*    MEDIA QUERIES    728PX*/
- @media screen and (max-width:649px) {
-    header{
+    }
+}
+/*    MEDIA QUERIES    728PX*/
+@media screen and (max-width: 649px) {
+    header {
         justify-content: space-between;
         width: auto;
         margin: auto;
     }
-    .menu{
+    .menu {
         align-items: flex-end;
-        margin: 0px;                     
+        margin: 0px;
     }
-    .flxhead li{
+    .flxhead li {
         border: solid 4px white;
         margin: 2px;
         padding: 3px;
     }
-    .menuic{
+    .menuic {
         margin: 0px;
         margin-left: 4px;
         width: auto;
     }
-    main{
+    main {
         justify-content: center;
         flex-direction: column;
         height: 150px;
         width: auto;
         margin: 0px;
         margin-top: 250px;
-                    }
-    .parra{
+    }
+    .parra {
         text-align: center;
         flex-direction: row;
         font-size: 40px;
         margin: 4px;
     }
-    .text{
+    .text {
         width: 300px;
         font-size: 2rem;
         flex-direction: row;
@@ -1285,25 +1274,25 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .contmid{
+    .contmid {
         margin-top: 50%;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         flex-flow: column wrap;
-        height:350px;
+        height: 350px;
     }
-    .secmid{
+    .secmid {
         height: 40%;
         margin: 0px;
         margin-bottom: 80%;
     }
-    .midbox{
+    .midbox {
         display: flex;
         margin: 4px;
         margin-bottom: 100%;
         flex-direction: row;
     }
-    .buybox{
+    .buybox {
         position: relative;
         display: flex;
         flex-direction: row;
@@ -1311,7 +1300,7 @@ padding: 0px;
         height: 400px;
         width: auto;
     }
-    .buys{
+    .buys {
         justify-content: center;
         position: relative;
         display: flex;
@@ -1320,110 +1309,109 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .fieldb{
+    .fieldb {
         margin: 12px;
     }
-    .public{
+    .public {
         margin: 4px;
         margin-top: 150px;
         width: 200px;
     }
-    .publicc{
+    .publicc {
         display: none;
         margin: 4px;
         height: 250px;
         width: 150px;
         margin-bottom: 850px;
     }
-    .boxvid{
+    .boxvid {
         display: none;
         height: 350px;
         width: auto;
-        margin:0px;
-        margin-top: 70px;      
+        margin: 0px;
+        margin-top: 70px;
     }
-    .conect{
+    .conect {
         justify-content: flex-start;
         height: 150px;
         width: auto;
     }
-    .hyperx{
+    .hyperx {
         justify-content: space-around;
         margin: 4px;
         height: 150px;
         width: auto;
-        }
-    .hyper{
+    }
+    .hyper {
         margin-top: 200px;
         height: 100px;
-        Width:  100%;
+        width: 100%;
     }
-    footer{
+    footer {
         justify-content: center;
         flex-direction: row;
-        align-content:center;
+        align-content: center;
         height: 150px;
         padding: 0px;
         margin: 0px;
         width: auto;
     }
-    .ful1{
+    .ful1 {
         justify-content: flex-end;
         flex-direction: row;
         margin: 0px;
- }
-    .ful1 li{
+    }
+    .ful1 li {
         border-bottom: 0px;
         font-size: 20px;
         top: 0%;
         margin-right: 75px;
         list-style-type: none;
         margin: 0px;
-        padding:8px;
+        padding: 8px;
     }
-    .listfoo{
+    .listfoo {
         justify-content: center;
         padding: 4px;
         list-style-type: none;
-    } 
+    }
 }
- /*    MEDIA QUERIES    580PX*/
- @media screen and (max-width:579px) {
-    header{
+/*    MEDIA QUERIES    580PX*/
+@media screen and (max-width: 579px) {
+    header {
         justify-content: space-between;
         width: auto;
         margin: auto;
     }
-    .menu{
+    .menu {
         align-items: flex-end;
         margin: 0px;
-                                
     }
-    .flxhead li{
+    .flxhead li {
         border: solid 4px white;
         margin: 0px;
         padding: 3px;
     }
-    .menuic{
+    .menuic {
         margin: 0px;
         margin-left: 4px;
         width: 5%;
     }
-    main{
+    main {
         justify-content: center;
         flex-direction: column;
         height: 150px;
         width: auto;
         margin: 0px;
         margin-top: 250px;
-                    }
-    .parra{
+    }
+    .parra {
         text-align: center;
         flex-direction: row;
         font-size: 40px;
         margin: 4px;
     }
-    .text{
+    .text {
         width: 300px;
         font-size: 2rem;
         flex-direction: row;
@@ -1431,25 +1419,25 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .contmid{
+    .contmid {
         margin-top: 50%;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         flex-flow: column wrap;
-        height:350px;
+        height: 350px;
     }
-    .secmid{
+    .secmid {
         height: 40%;
         margin: 0px;
         margin-bottom: 80%;
     }
-    .midbox{
+    .midbox {
         display: flex;
         margin: 4px;
         margin-bottom: 100%;
         flex-direction: row;
     }
-    .buybox{
+    .buybox {
         position: relative;
         display: flex;
         flex-direction: row;
@@ -1457,7 +1445,7 @@ padding: 0px;
         height: 400px;
         width: auto;
     }
-    .buys{
+    .buys {
         justify-content: center;
         position: relative;
         display: flex;
@@ -1466,168 +1454,166 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .fieldb{
+    .fieldb {
         margin: 12px;
     }
-    .public{
+    .public {
         margin: 4px;
         margin-top: 150px;
         width: 200px;
     }
-    .publicc{
+    .publicc {
         display: none;
         margin: 4px;
         height: 250px;
         width: 150px;
         margin-bottom: 850px;
     }
-    .boxvid{
+    .boxvid {
         display: none;
         height: 350px;
         width: auto;
-        margin:0px;
-        margin-top: 70px;      
+        margin: 0px;
+        margin-top: 70px;
     }
-    .conect{
+    .conect {
         justify-content: flex-start;
         height: 150px;
         width: auto;
     }
-    .hyperx{
+    .hyperx {
         justify-content: space-around;
         margin: 4px;
         height: 150px;
         width: auto;
-        }
-    .hyper{
+    }
+    .hyper {
         margin-top: 200px;
         height: 100px;
-        Width:  100%;
+        width: 100%;
     }
-    footer{
+    footer {
         justify-content: center;
         flex-direction: row;
-        align-content:center;
+        align-content: center;
         height: 150px;
         padding: 0px;
         margin: 0px;
         width: auto;
     }
-    .ful1{
+    .ful1 {
         justify-content: flex-end;
         flex-direction: row;
         margin: 0px;
- }
-    .ful1 li{
+    }
+    .ful1 li {
         border-bottom: 0px;
         font-size: 20px;
         top: 0%;
         margin-right: 75px;
         list-style-type: none;
         margin: 0px;
-        padding:8px;
+        padding: 8px;
     }
-    .listfoo{
+    .listfoo {
         justify-content: center;
         padding: 4px;
         list-style-type: none;
-    } 
+    }
 }
- /*    MEDIA QUERIES    360PX*/
- @media screen and (max-width:360px) {
-    header{
-        justify-content:space-between;
+/*    MEDIA QUERIES    360PX*/
+@media screen and (max-width: 360px) {
+    header {
+        justify-content: space-between;
         width: auto;
         margin: 0px;
     }
-    .menu{
-
+    .menu {
         height: 75px;
         align-items: flex-end;
         margin: 0px;
         width: auto;
-                                
     }
-    .flxhead li{
+    .flxhead li {
         font-size: 12px;
         border: solid 2px white;
         margin: 4px;
         padding: 2px;
     }
-    .menuic{
+    .menuic {
         margin: 0px;
-        margin-left: 4px;    
+        margin-left: 4px;
     }
-    .tittle{
+    .tittle {
         font-size: 12px;
         margin: 1px;
         margin-top: 80px;
         margin-left: 25px;
     }
-    .icon{
-        height:50px;
+    .icon {
+        height: 50px;
     }
-    main{
+    main {
         justify-content: center;
         flex-direction: row;
         height: 20px;
         width: auto;
         margin: 0px;
         margin-top: 120px;
-                    }
-    .parra{
+    }
+    .parra {
         height: 60px;
         text-align: center;
         flex-direction: row;
         font-size: 22px;
         margin: 4px;
     }
-    .text{
+    .text {
         height: 50%;
         font-size: 12px;
-        flex-direction:column;
+        flex-direction: column;
         text-align: justify;
         margin: 2px;
         padding: 4px;
     }
-    .contmid{
+    .contmid {
         height: 10%;
         display: flex;
-        justify-content:center;
+        justify-content: center;
         align-content: center;
         flex-direction: row wrap;
         margin: auto;
     }
-    .secmid{
+    .secmid {
         display: flex;
         flex-direction: row;
         margin: 2px;
         margin-top: 10%;
-        }
-    .field{
-        margin: 0px;   
-     }
-    legend{
+    }
+    .field {
+        margin: 0px;
+    }
+    legend {
         font-size: 16px;
     }
-    label{
+    label {
         font-size: 12px;
     }
-    .field input{
+    .field input {
         height: 25px;
     }
-    .conect{
-        display:inline-block;
+    .conect {
+        display: inline-block;
         width: auto;
         padding: 2px;
         margin: 2px;
     }
-    .midbox{
-        display:flex;
+    .midbox {
+        display: flex;
         margin: 4px;
         margin-bottom: 10px;
     }
-    .buybox{
+    .buybox {
         position: relative;
         display: flex;
         flex-direction: row;
@@ -1635,28 +1621,28 @@ padding: 0px;
         height: 400px;
         width: auto;
     }
-    .boxsellt{
-    justify-content: space-between;
-    align-items: center;
-    border:solid 2px white;
-    background-color: rgba(165, 7, 46, 0.192);
-    display:flex;
-    flex-flow:row wrap;
-    height: 70%;
-    width: auto;
-    top: 0px;
-    padding:2px;
-    margin:8px;
+    .boxsellt {
+        justify-content: space-between;
+        align-items: center;
+        border: solid 2px white;
+        background-color: rgba(165, 7, 46, 0.192);
+        display: flex;
+        flex-flow: row wrap;
+        height: 70%;
+        width: auto;
+        top: 0px;
+        padding: 2px;
+        margin: 8px;
     }
-    .sellt{
-    display: flex;
-    border: solid 4px white;
-    height: 100px;
-    width: auto;
-    margin: 2px;
-    padding: 0px;
+    .sellt {
+        display: flex;
+        border: solid 4px white;
+        height: 100px;
+        width: auto;
+        margin: 2px;
+        padding: 0px;
     }
-    .buys{
+    .buys {
         justify-content: center;
         position: relative;
         display: flex;
@@ -1665,85 +1651,85 @@ padding: 0px;
         margin: 4px;
         padding: 4px;
     }
-    .buyss{
+    .buyss {
         margin: 8px;
-        display:inline;
+        display: inline;
         justify-content: center;
         align-items: center;
     }
-    .buyss form{
+    .buyss form {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         margin: 4px;
     }
-    .buyss form input{
+    .buyss form input {
         margin: 4px;
     }
-    .fieldb{
+    .fieldb {
         margin: 12px;
     }
-    .public{
+    .public {
         height: 170px;
         margin: 2px;
         width: 150px;
         border: solid 2px white;
     }
-    .publicc{
+    .publicc {
         display: flex;
         margin: 4px;
         height: 175px;
         width: 250px;
         margin-bottom: 20px;
     }
-    .boxvid{
-        display:none;
+    .boxvid {
+        display: none;
         height: 100px;
         width: auto;
-        margin:0px;
-        margin-top: 70px;      
+        margin: 0px;
+        margin-top: 70px;
     }
-    .conect{
+    .conect {
         margin-bottom: 100px;
         height: 100px;
     }
-    .hyperx{
-        justify-content:center;
+    .hyperx {
+        justify-content: center;
         margin: 2px;
         height: 85px;
         width: auto;
-        }
-    .hyper{
+    }
+    .hyper {
         margin-top: 110px;
         height: 75px;
         width: auto;
     }
-    footer{
+    footer {
         justify-content: center;
         flex-direction: row;
-        align-content:center;
+        align-content: center;
         height: 100px;
         padding: 0px;
         margin: 0px;
         width: auto;
     }
-    .ful1{
+    .ful1 {
         justify-content: flex-end;
         flex-direction: row;
         margin: 0px;
- }
-    .ful1 li{
+    }
+    .ful1 li {
         border-bottom: 0px;
         font-size: 14px;
         top: 0%;
         margin-right: 75px;
         list-style-type: none;
         margin: 0px;
-        padding:8px;
+        padding: 8px;
     }
-    .listfoo{
+    .listfoo {
         justify-content: center;
         padding: 4px;
         list-style-type: none;
-    } 
+    }
 }

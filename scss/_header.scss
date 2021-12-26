@@ -1,16 +1,12 @@
-
-.flxhead{
+.flxhead {
     justify-content: space-around;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-end;
     margin: 6px;
-    
-    li{
-        @include primario;
-        border: solid 4px white;
-        border-bottom: 0px;
+
+    li {
         color: white;
         display: inline;
         position: relative;
@@ -19,32 +15,31 @@
         font-size: $font-32;
         margin-right: 16px;
         list-style-type: none;
-    } 
-    nav ul li:hover{
+    }
+    nav ul li:hover {
         font-weight: bold;
         background-color: $color-pie;
-    } 
-
- }
-//    MENU HEADER 
-.menu{
+        border-radius: 32px;
+    }
+}
+//    MENU HEADER
+.menu {
     height: 150px;
     width: 100%;
     justify-content: space-between;
     position: fixed;
     display: flex;
-    border: solid 2px white;
     margin: 0px;
     top: 0px;
     background-color: $color-menu;
 
-    section{
-        display:block;
-        justify-content:center;
+    section {
+        display: block;
+        justify-content: center;
         height: 148px;
         width: auto;
-    
-        img{
+
+        img {
             position: relative;
             margin: 0px;
             margin-left: 25px;
