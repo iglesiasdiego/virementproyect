@@ -8,7 +8,7 @@ footer {
     height: 70px;
     padding: 0px;
     margin: 0px;
-    margin-top:15%;
+    margin-top: 15%;
     width: auto;
     background-color: rgba(4, 99, 70, 0.877);
     .listfoo {
@@ -27,6 +27,7 @@ footer {
             flex-direction: row;
             flex-wrap: wrap;
             margin: 0px;
+
             li {
                 color: white;
                 display: inline;
@@ -38,11 +39,7 @@ footer {
                 margin-right: 200px;
                 list-style-type: none;
             }
-            nav ul li:hover {
-                font-weight: bold;
-                background-color: $color-pie;
-                border-radius: 32px;
-            }
+
         }
     }
 }

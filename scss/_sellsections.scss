@@ -81,15 +81,19 @@
             position: relative;
             height: 200px;
             width: auto;
-            margin: 0px;
+            margin: 6px;
         }
 
         .sellt {
+            border-radius: 10px;
             margin: 4px;
             margin-left: 15px;
             height: 150px;
             width: 200px;
-            
+        }
+        img:hover {
+            transform: scale(1.4);
+            transition: 1.7s;
         }
         form {
             display: flex;
@@ -105,25 +109,34 @@
     //  SECTOR DE COMPRAS
 }
 .buybox {
+    justify-content: center;
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 400px;
-    margin: 4px;
+    margin: 8px;
     width: auto;
 
     section {
         justify-content: center;
         position: relative;
-        display: flex;
-        height: 300px;
         width: auto;
         margin: 4px;
         padding: 0px;
 
         fieldset {
-            margin: 12px;
-        }
-    }
+            background-color:$color-section ;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 60%;
+            margin: 8px;
+            width: 500px;
+
+            .imp {
+                background-color: red;
+                color: white;
+                font-size:$font-24;
+
+    }}}
 }

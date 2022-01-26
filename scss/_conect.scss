@@ -8,6 +8,10 @@
     margin: 8px;
 
     fieldset {
+        border: solid 4px white;
+        color: white;
         margin: 8px;
+        background-color: $color-section;
+        padding: 2px;
     }
 }
