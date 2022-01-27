@@ -2,7 +2,8 @@
     .flxhead {
         display: flex;
         flex-direction: row;
-        align-content: flex-end;    }
+        align-content: flex-end;
+    }
     .flxhead li {
         flex-direction: row;
         position: relative;
@@ -63,7 +64,7 @@
         width: auto;
         text-align: center;
         flex-direction: row;
-        font-size: 22px;
+        font-size: $font-32;
         margin: 4px;
     }
     main {
@@ -106,8 +107,10 @@
         label {
             font-size: 12px;
         }
-        .field input {
-            height: 25px;
+        .field {
+            & input {
+                height: 25px;
+            }
         }
     }
     .boxvid {
@@ -117,13 +120,34 @@
         display: flex;
         margin: 4px;
         margin-bottom: 10px;
+
+        &flextext {
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+    
+    .midbox2 {
+        justify-content: space-between;
+        display: flex;
+        margin: 12px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: white;
+        background-color: $color-section;
+    }
+    .text2 {
+        font-size: $font-32;
+        margin: 8px;
     }
 
     .public {
-        height: 175px;
+        height: 170px;
         margin: 0px;
         width: 130px;
-        border: solid 2px white;
+        border: solid 1px white;
     }
 
     .publicc {
@@ -137,8 +161,8 @@
         justify-content: center;
         position: relative;
         display: flex;
-        height: 300px;
-        width: auto;
+        height: auto;
+        width:auto;
         margin: 4px;
         padding: 4px;
     }
@@ -146,7 +170,7 @@
         justify-content: space-between;
         align-items: center;
         border: solid 2px white;
-        background-color: rgba(165, 7, 46, 0.192);
+        background-color: $color-section;
         display: flex;
         flex-flow: row wrap;
         height: 70%;
@@ -176,7 +200,7 @@
         border: solid 2px black;
         margin: 4px;
         height: 80px;
-        width: 225px;
+        width: 220px;
     }
     .boxsellt .buyss fieldset img:hover {
         transform: scale(1.4);
@@ -233,26 +257,39 @@
     }
 
     .buybox {
+        justify-content: center;
         position: relative;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 400px;
+        margin: 2px;
         width: auto;
+    
+        section {
+            justify-content: center;
+            position: relative;
+            width: auto;
+            margin: 2px;
+            padding: 0px;
+    
+            fieldset {
+                background-color: $color-section;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                height: 400px;
+                margin: 2px;
+                width: 300px;
+    
+                .imp {
+                    background-color: red;
+                    color: white;
+                    font-size: $font-24;
+                }
+            }
+        }
     }
-    .buybox section {
-        justify-content: center;
-        position: relative;
-        display: flex;
-        height: 300px;
-        width: auto;
-        margin: 4px;
-        padding: 0px;
-    }
-    .buybox section fieldset {
-        margin: 12px;
-    }
-
+    
     footer {
         border: none;
         display: flex;
